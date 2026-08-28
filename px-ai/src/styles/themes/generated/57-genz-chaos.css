@@ -1,0 +1,40 @@
+/* Generated from designs/57-genz-chaos/DESIGN.md. Do not edit manually. */
+[data-theme='57-genz-chaos'] {
+  --color-chaos-pink: #ff00ff;
+  --color-chaos-green: #00ff00;
+  --color-chaos-yellow: #ffff00;
+  --color-chaos-blue: #0000ff;
+  --color-ink: #0d0d0d;
+  --color-paper: #fffdf2;
+  --color-primary: #0d0d0d;
+  --color-on-primary: #ffffff;
+  --color-surface: #fffdf2;
+  --color-on-surface: #0d0d0d;
+  --spacing-unit: 8px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 32px;
+  --rounded-DEFAULT: 0px;
+
+  /* PX AI application theme contract. */
+  --pixel: 1px;
+  --ink: var(--color-on-surface);
+  --paper: var(--color-on-primary);
+  --bg: var(--color-surface);
+  --red: var(--color-chaos-pink);
+  --blue: var(--color-chaos-blue);
+  --green: var(--color-chaos-green);
+  --yellow: var(--color-chaos-yellow);
+  --on-red: #000000;
+  --on-blue: #ffffff;
+  --on-green: #000000;
+  --on-yellow: #000000;
+  --on-accent: #ffffff;
+  --muted: var(--color-on-surface);
+  --soft-line: var(--color-primary);
+  --border: var(--color-primary);
+  --hover-surface: var(--color-surface);
+  --placeholder: var(--color-on-surface);
+  --font-pixel: 'Archivo Black', 'Microsoft YaHei', sans-serif;
+  --font-body: 'Space Grotesk', 'Microsoft YaHei', sans-serif;
+}

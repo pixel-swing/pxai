@@ -1,0 +1,53 @@
+/* Generated from designs/76-material-you/DESIGN.md. Do not edit manually. */
+[data-theme='76-material-you'] {
+  --color-md3-bg: #fffbfe;
+  --color-md3-on-surface: #1c1b1f;
+  --color-md3-on-variant: #49454f;
+  --color-md3-primary: #6750a4;
+  --color-md3-on-primary: #ffffff;
+  --color-md3-primary-container: #eaddff;
+  --color-md3-on-primary-container: #21005d;
+  --color-md3-sec-container: #e8def8;
+  --color-md3-on-sec-container: #1d192b;
+  --color-md3-tertiary: #7d5260;
+  --color-md3-tert-container: #ffd8e4;
+  --color-md3-on-tert-container: #31111d;
+  --color-md3-surface-container: #f3edf7;
+  --color-md3-field: #e7e0ec;
+  --color-md3-outline: #79747e;
+  --color-md3-outline-var: #cac4d0;
+  --color-primary: #6750a4;
+  --color-on-primary: #ffffff;
+  --color-surface: #fffbfe;
+  --color-on-surface: #1c1b1f;
+  --spacing-unit: 8px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 32px;
+  --rounded-radius-pill: 999px;
+  --rounded-radius-lg: 28px;
+  --rounded-radius-md: 16px;
+  --rounded-DEFAULT: 999px;
+
+  /* PX AI application theme contract. */
+  --pixel: 1px;
+  --ink: var(--color-on-surface);
+  --paper: var(--color-md3-surface-container);
+  --bg: var(--color-md3-bg);
+  --red: var(--color-md3-tertiary);
+  --blue: var(--color-primary);
+  --green: var(--color-md3-tertiary);
+  --yellow: var(--color-primary);
+  --on-red: #ffffff;
+  --on-blue: #ffffff;
+  --on-green: #ffffff;
+  --on-yellow: #ffffff;
+  --on-accent: #ffffff;
+  --muted: var(--color-on-surface);
+  --soft-line: var(--color-md3-outline);
+  --border: var(--color-md3-outline);
+  --hover-surface: var(--color-md3-primary-container);
+  --placeholder: var(--color-on-surface);
+  --font-pixel: 'Roboto', 'Microsoft YaHei', sans-serif;
+  --font-body: 'Roboto', 'Microsoft YaHei', sans-serif;
+}

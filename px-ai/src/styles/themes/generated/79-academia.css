@@ -1,0 +1,45 @@
+/* Generated from designs/79-academia/DESIGN.md. Do not edit manually. */
+[data-theme='79-academia'] {
+  --color-bg: #1c1714;
+  --color-bg-alt: #251e19;
+  --color-fg: #e8dfd4;
+  --color-muted: #3d332b;
+  --color-muted-fg: #9c8b7a;
+  --color-border: #4a3f35;
+  --color-brass: #c9a962;
+  --color-brass-hi: #dbbe81;
+  --color-crimson: #8b2635;
+  --color-primary: #e8dfd4;
+  --color-on-primary: #000000;
+  --color-surface: #1c1714;
+  --color-on-surface: #e8dfd4;
+  --spacing-pad: 24px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 32px;
+  --rounded-radius: 4px;
+  --rounded-DEFAULT: 4px;
+
+  /* PX AI application theme contract. */
+  --pixel: 1px;
+  --ink: var(--color-on-surface);
+  --paper: var(--color-bg-alt);
+  --bg: var(--color-bg);
+  --red: var(--color-primary);
+  --blue: var(--color-primary);
+  --green: var(--color-primary);
+  --yellow: var(--color-primary);
+  --on-red: #000000;
+  --on-blue: #000000;
+  --on-green: #000000;
+  --on-yellow: #000000;
+  --on-accent: #000000;
+  --muted: var(--color-muted);
+  --soft-line: var(--color-border);
+  --border: var(--color-border);
+  --hover-surface: var(--color-surface);
+  --placeholder: var(--color-muted);
+  --font-pixel: 'Cormorant Garamond', 'Microsoft YaHei', sans-serif;
+  --font-body: 'Crimson Pro', 'Microsoft YaHei', sans-serif;
+  color-scheme: dark;
+}

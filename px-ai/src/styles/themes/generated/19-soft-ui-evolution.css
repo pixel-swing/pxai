@@ -1,0 +1,47 @@
+/* Generated from designs/19-soft-ui-evolution/DESIGN.md. Do not edit manually. */
+[data-theme='19-soft-ui-evolution'] {
+  --color-bg: #e9eff6;
+  --color-card: #fbfdff;
+  --color-ink: #1f2a37;
+  --color-ink-soft: #43566b;
+  --color-line: #c9d7e4;
+  --color-accent: #0f609b;
+  --color-accent-deep: #0b4a73;
+  --color-accent-soft: #d9ebf8;
+  --color-pastel-blue: #87ceeb;
+  --color-pastel-pink: #ffb6c1;
+  --color-pastel-green: #90ee90;
+  --color-primary: #0f609b;
+  --color-on-primary: #ffffff;
+  --color-surface: #e9eff6;
+  --color-on-surface: #1f2a37;
+  --spacing-unit: 8px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 32px;
+  --rounded-radius: 10px;
+  --rounded-radius-lg: 16px;
+  --rounded-DEFAULT: 10px;
+
+  /* PX AI application theme contract. */
+  --pixel: 1px;
+  --ink: var(--color-on-surface);
+  --paper: var(--color-card);
+  --bg: var(--color-bg);
+  --red: var(--color-pastel-pink);
+  --blue: var(--color-pastel-blue);
+  --green: var(--color-pastel-green);
+  --yellow: var(--color-accent);
+  --on-red: #000000;
+  --on-blue: #000000;
+  --on-green: #000000;
+  --on-yellow: #ffffff;
+  --on-accent: #ffffff;
+  --muted: var(--color-on-surface);
+  --soft-line: var(--color-line);
+  --border: var(--color-line);
+  --hover-surface: var(--color-surface);
+  --placeholder: var(--color-on-surface);
+  --font-pixel: 'Nunito', 'Microsoft YaHei', sans-serif;
+  --font-body: 'Nunito', 'Microsoft YaHei', sans-serif;
+}

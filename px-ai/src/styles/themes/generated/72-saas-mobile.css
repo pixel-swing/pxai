@@ -1,0 +1,43 @@
+/* Generated from designs/72-saas-mobile/DESIGN.md. Do not edit manually. */
+[data-theme='72-saas-mobile'] {
+  --color-bg: #fafafa;
+  --color-fg: #0f172a;
+  --color-muted: #f1f5f9;
+  --color-muted-fg: #5b6472;
+  --color-accent: #0052ff;
+  --color-accent-sec: #4d7cff;
+  --color-card: #ffffff;
+  --color-border: #e2e8f0;
+  --color-primary: #0052ff;
+  --color-on-primary: #ffffff;
+  --color-surface: #fafafa;
+  --color-on-surface: #0f172a;
+  --spacing-unit: 8px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 32px;
+  --rounded-radius: 16px;
+  --rounded-DEFAULT: 16px;
+
+  /* PX AI application theme contract. */
+  --pixel: 1px;
+  --ink: var(--color-on-surface);
+  --paper: var(--color-card);
+  --bg: var(--color-bg);
+  --red: var(--color-primary);
+  --blue: var(--color-primary);
+  --green: var(--color-primary);
+  --yellow: var(--color-accent);
+  --on-red: #ffffff;
+  --on-blue: #ffffff;
+  --on-green: #ffffff;
+  --on-yellow: #ffffff;
+  --on-accent: #ffffff;
+  --muted: var(--color-muted);
+  --soft-line: var(--color-border);
+  --border: var(--color-border);
+  --hover-surface: var(--color-surface);
+  --placeholder: var(--color-muted);
+  --font-pixel: 'Calistoga', 'Microsoft YaHei', sans-serif;
+  --font-body: 'Inter', 'Microsoft YaHei', sans-serif;
+}

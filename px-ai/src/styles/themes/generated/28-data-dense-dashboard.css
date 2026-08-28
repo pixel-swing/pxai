@@ -1,0 +1,50 @@
+/* Generated from designs/28-data-dense-dashboard/DESIGN.md. Do not edit manually. */
+[data-theme='28-data-dense-dashboard'] {
+  --color-bg: #f5f5f5;
+  --color-card: #ffffff;
+  --color-ink: #333333;
+  --color-ink-strong: #111827;
+  --color-muted: #5b6472;
+  --color-line: #e5e7eb;
+  --color-blue: #2563eb;
+  --color-blue-deep: #1d4ed8;
+  --color-green: #22c55e;
+  --color-green-t: #15803d;
+  --color-amber: #f59e0b;
+  --color-amber-t: #b45309;
+  --color-red: #ef4444;
+  --color-red-t: #b91c1c;
+  --color-focus: #1d4ed8;
+  --color-primary: #333333;
+  --color-on-primary: #ffffff;
+  --color-surface: #f5f5f5;
+  --color-on-surface: #333333;
+  --spacing-grid-gap: 8px;
+  --spacing-card-padding: 12px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 32px;
+  --rounded-DEFAULT: 4px;
+
+  /* PX AI application theme contract. */
+  --pixel: 1px;
+  --ink: var(--color-on-surface);
+  --paper: var(--color-card);
+  --bg: var(--color-bg);
+  --red: var(--color-red);
+  --blue: var(--color-blue);
+  --green: var(--color-green);
+  --yellow: var(--color-amber);
+  --on-red: #000000;
+  --on-blue: #ffffff;
+  --on-green: #000000;
+  --on-yellow: #000000;
+  --on-accent: #ffffff;
+  --muted: var(--color-muted);
+  --soft-line: var(--color-line);
+  --border: var(--color-line);
+  --hover-surface: var(--color-surface);
+  --placeholder: var(--color-muted);
+  --font-pixel: 'Inter', 'Microsoft YaHei', sans-serif;
+  --font-body: 'Noto Sans SC', 'Microsoft YaHei', sans-serif;
+}

@@ -1,0 +1,48 @@
+/* Generated from designs/36-financial-dashboard/DESIGN.md. Do not edit manually. */
+[data-theme='36-financial-dashboard'] {
+  --color-profit-color: #22c55e;
+  --color-loss-color: #ef4444;
+  --color-profit-ink: #166534;
+  --color-loss-ink: #b91c1c;
+  --color-trust: #003366;
+  --color-trust-2: #0b4a8b;
+  --color-table-header-bg: #f3f4f6;
+  --color-bg: #f7f8fa;
+  --color-panel: #ffffff;
+  --color-line: #e5e7eb;
+  --color-ink: #111827;
+  --color-ink-2: #374151;
+  --color-ink-3: #4b5563;
+  --color-primary: #111827;
+  --color-on-primary: #ffffff;
+  --color-surface: #f7f8fa;
+  --color-on-surface: #111827;
+  --spacing-unit: 8px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 32px;
+  --rounded-radius: 10px;
+  --rounded-DEFAULT: 10px;
+
+  /* PX AI application theme contract. */
+  --pixel: 1px;
+  --ink: var(--color-on-surface);
+  --paper: var(--color-panel);
+  --bg: var(--color-bg);
+  --red: var(--color-primary);
+  --blue: var(--color-primary);
+  --green: var(--color-primary);
+  --yellow: var(--color-primary);
+  --on-red: #ffffff;
+  --on-blue: #ffffff;
+  --on-green: #ffffff;
+  --on-yellow: #ffffff;
+  --on-accent: #ffffff;
+  --muted: var(--color-on-surface);
+  --soft-line: var(--color-line);
+  --border: var(--color-line);
+  --hover-surface: var(--color-surface);
+  --placeholder: var(--color-on-surface);
+  --font-pixel: 'IBM Plex Mono', 'Microsoft YaHei', sans-serif;
+  --font-body: 'IBM Plex Mono', 'Microsoft YaHei', sans-serif;
+}

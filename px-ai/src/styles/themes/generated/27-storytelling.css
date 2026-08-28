@@ -1,0 +1,48 @@
+/* Generated from designs/27-storytelling/DESIGN.md. Do not edit manually. */
+[data-theme='27-storytelling'] {
+  --color-timeline-color: #d97706;
+  --color-ch1: #fff7ed;
+  --color-ch1-deep: #ffedd5;
+  --color-a1: #c2410c;
+  --color-a1-strong: #9a3412;
+  --color-ch2: #ecfdf5;
+  --color-a2: #0f766e;
+  --color-ch3: #eef2ff;
+  --color-a3: #5b21b6;
+  --color-ink: #292524;
+  --color-soft: #57534e;
+  --color-paper: #fffdf9;
+  --color-line: #e7e5e4;
+  --color-focus: #9a3412;
+  --color-primary: #292524;
+  --color-on-primary: #ffffff;
+  --color-surface: #fffdf9;
+  --color-on-surface: #292524;
+  --spacing-unit: 8px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 32px;
+  --rounded-DEFAULT: 4px;
+
+  /* PX AI application theme contract. */
+  --pixel: 1px;
+  --ink: var(--color-on-surface);
+  --paper: var(--color-surface);
+  --bg: var(--color-ch1-deep);
+  --red: var(--color-primary);
+  --blue: var(--color-primary);
+  --green: var(--color-primary);
+  --yellow: var(--color-primary);
+  --on-red: #ffffff;
+  --on-blue: #ffffff;
+  --on-green: #ffffff;
+  --on-yellow: #ffffff;
+  --on-accent: #ffffff;
+  --muted: var(--color-on-surface);
+  --soft-line: var(--color-line);
+  --border: var(--color-line);
+  --hover-surface: var(--color-surface);
+  --placeholder: var(--color-on-surface);
+  --font-pixel: 'Noto Serif SC', 'Microsoft YaHei', sans-serif;
+  --font-body: 'Noto Sans SC', 'Microsoft YaHei', sans-serif;
+}

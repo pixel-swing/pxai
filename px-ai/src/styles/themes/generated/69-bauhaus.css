@@ -1,0 +1,48 @@
+/* Generated from designs/69-bauhaus/DESIGN.md. Do not edit manually. */
+[data-theme='69-bauhaus'] {
+  --color-color-red: #d02020;
+  --color-color-blue: #1040c0;
+  --color-color-yellow: #f0c020;
+  --color-color-bg: #f0f0f0;
+  --color-color-fg: #121212;
+  --color-color-muted: #e0e0e0;
+  --color-background: #f0f0f0;
+  --color-on-background: #121212;
+  --color-primary: #d02020;
+  --color-on-primary: #ffffff;
+  --color-secondary: #1040c0;
+  --color-on-secondary: #ffffff;
+  --color-tertiary: #f0c020;
+  --color-on-tertiary: #121212;
+  --color-surface: #f0f0f0;
+  --color-on-surface: #121212;
+  --spacing-unit: 8px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 32px;
+  --rounded-radius-block: 0px;
+  --rounded-radius-pill: 9999px;
+  --rounded-DEFAULT: 0px;
+
+  /* PX AI application theme contract. */
+  --pixel: 1px;
+  --ink: var(--color-on-background);
+  --paper: var(--color-color-muted);
+  --bg: var(--color-background);
+  --red: var(--color-color-red);
+  --blue: var(--color-color-blue);
+  --green: var(--color-tertiary);
+  --yellow: var(--color-color-yellow);
+  --on-red: #ffffff;
+  --on-blue: #ffffff;
+  --on-green: #000000;
+  --on-yellow: #000000;
+  --on-accent: #ffffff;
+  --muted: var(--color-color-muted);
+  --soft-line: var(--color-secondary);
+  --border: var(--color-secondary);
+  --hover-surface: var(--color-surface);
+  --placeholder: var(--color-color-muted);
+  --font-pixel: 'Outfit', 'Microsoft YaHei', sans-serif;
+  --font-body: 'inherit', 'Microsoft YaHei', sans-serif;
+}

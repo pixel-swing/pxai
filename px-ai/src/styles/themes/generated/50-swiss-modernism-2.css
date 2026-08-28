@@ -1,0 +1,44 @@
+/* Generated from designs/50-swiss-modernism-2/DESIGN.md. Do not edit manually. */
+[data-theme='50-swiss-modernism-2'] {
+  --color-color-text: #000000;
+  --color-color-bg: #ffffff;
+  --color-color-surface: #f5f5f5;
+  --color-accent: #e30613;
+  --color-background: #ffffff;
+  --color-on-background: #000000;
+  --color-primary: #e30613;
+  --color-on-primary: #ffffff;
+  --color-secondary: #f5f5f5;
+  --color-on-secondary: #000000;
+  --color-tertiary: #000000;
+  --color-on-tertiary: #ffffff;
+  --color-surface: #ffffff;
+  --color-on-surface: #000000;
+  --spacing-grid-gap: 1rem;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 32px;
+  --rounded-DEFAULT: 0px;
+
+  /* PX AI application theme contract. */
+  --pixel: 1px;
+  --ink: var(--color-on-background);
+  --paper: var(--color-color-surface);
+  --bg: var(--color-background);
+  --red: var(--color-tertiary);
+  --blue: var(--color-secondary);
+  --green: var(--color-tertiary);
+  --yellow: var(--color-accent);
+  --on-red: #ffffff;
+  --on-blue: #000000;
+  --on-green: #ffffff;
+  --on-yellow: #ffffff;
+  --on-accent: #ffffff;
+  --muted: var(--color-secondary);
+  --soft-line: var(--color-secondary);
+  --border: var(--color-secondary);
+  --hover-surface: var(--color-surface);
+  --placeholder: var(--color-secondary);
+  --font-pixel: 'Inter', 'Microsoft YaHei', sans-serif;
+  --font-body: 'Inter', 'Microsoft YaHei', sans-serif;
+}

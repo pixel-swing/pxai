@@ -1,0 +1,51 @@
+/* Generated from designs/61-nature-distilled/DESIGN.md. Do not edit manually. */
+[data-theme='61-nature-distilled'] {
+  --color-terracotta: #c67b5c;
+  --color-sand-beige: #d4c4a8;
+  --color-warm-clay: #b5651d;
+  --color-soft-cream: #f5f0e1;
+  --color-earth-brown: #8b4513;
+  --color-olive-green: #6b7b3c;
+  --color-olive-deep: #57652f;
+  --color-warm-stone: #9c8b7a;
+  --color-ink: #3b2e23;
+  --color-ink-soft: #6e5b4a;
+  --color-card-bg: #fffdf6;
+  --color-background: #f5f0e1;
+  --color-on-background: #3b2e23;
+  --color-primary: #8b4513;
+  --color-on-primary: #fff8ec;
+  --color-secondary: #6b7b3c;
+  --color-on-secondary: #f8f6ec;
+  --color-tertiary: #c67b5c;
+  --color-on-tertiary: #3b2e23;
+  --color-surface: #fffdf6;
+  --color-on-surface: #3b2e23;
+  --spacing-unit: 8px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 32px;
+  --rounded-DEFAULT: 8px;
+
+  /* PX AI application theme contract. */
+  --pixel: 1px;
+  --ink: var(--color-on-background);
+  --paper: var(--color-surface);
+  --bg: var(--color-background);
+  --red: var(--color-tertiary);
+  --blue: var(--color-secondary);
+  --green: var(--color-olive-green);
+  --yellow: var(--color-secondary);
+  --on-red: #000000;
+  --on-blue: #ffffff;
+  --on-green: #ffffff;
+  --on-yellow: #ffffff;
+  --on-accent: #ffffff;
+  --muted: var(--color-secondary);
+  --soft-line: var(--color-secondary);
+  --border: var(--color-secondary);
+  --hover-surface: var(--color-surface);
+  --placeholder: var(--color-secondary);
+  --font-pixel: 'Fraunces', 'Microsoft YaHei', sans-serif;
+  --font-body: 'Karla', 'Microsoft YaHei', sans-serif;
+}

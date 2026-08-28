@@ -1,0 +1,48 @@
+/* Generated from designs/33-comparative-analysis/DESIGN.md. Do not edit manually. */
+[data-theme='33-comparative-analysis'] {
+  --color-positive-color: #22c55e;
+  --color-negative-color: #ef4444;
+  --color-neutral-color: #6b7280;
+  --color-positive-ink: #15803d;
+  --color-negative-ink: #b91c1c;
+  --color-primary: #3b82f6;
+  --color-compare: #f97316;
+  --color-alt: #8b5cf6;
+  --color-bg: #f1f5f9;
+  --color-panel: #ffffff;
+  --color-line: #e2e8f0;
+  --color-ink: #0f172a;
+  --color-ink-2: #475569;
+  --color-ink-3: #64748b;
+  --color-on-primary: #ffffff;
+  --color-surface: #f1f5f9;
+  --color-on-surface: #0f172a;
+  --spacing-comparison-gap: 2rem;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 32px;
+  --rounded-radius: 12px;
+  --rounded-DEFAULT: 12px;
+
+  /* PX AI application theme contract. */
+  --pixel: 1px;
+  --ink: var(--color-on-surface);
+  --paper: var(--color-panel);
+  --bg: var(--color-bg);
+  --red: var(--color-primary);
+  --blue: var(--color-primary);
+  --green: var(--color-positive-color);
+  --yellow: var(--color-primary);
+  --on-red: #000000;
+  --on-blue: #000000;
+  --on-green: #000000;
+  --on-yellow: #000000;
+  --on-accent: #000000;
+  --muted: var(--color-on-surface);
+  --soft-line: var(--color-line);
+  --border: var(--color-line);
+  --hover-surface: var(--color-surface);
+  --placeholder: var(--color-on-surface);
+  --font-pixel: 'Inter', 'Microsoft YaHei', sans-serif;
+  --font-body: 'JetBrains Mono', 'Microsoft YaHei', sans-serif;
+}

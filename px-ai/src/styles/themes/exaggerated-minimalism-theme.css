@@ -1,0 +1,90 @@
+[data-theme='47-exaggerated-minimalism'] {
+  --accent: #ff4d00;
+  --ink: #000;
+  --paper: #fff;
+  --bg: #fff;
+  --border: #000;
+  --muted: #595959;
+  --font-pixel: 'Inter', 'Microsoft YaHei', sans-serif;
+  --font-body: 'Inter', 'Microsoft YaHei', sans-serif;
+  color-scheme: light;
+}
+[data-theme='47-exaggerated-minimalism'] body { color: #000; background: #fff; font: 400 17px/1.6 var(--font-body); }
+[data-theme='47-exaggerated-minimalism'] :focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; }
+[data-theme='47-exaggerated-minimalism'] .site-header { height: 72px; background: #fff; border-bottom: 1px solid #000; }
+[data-theme='47-exaggerated-minimalism'] .header-inner { height: 72px; }
+[data-theme='47-exaggerated-minimalism'] .brand { color: #000; font-weight: 900; letter-spacing: -.05em; text-transform: uppercase; }
+[data-theme='47-exaggerated-minimalism'] .brand-mark { background: #000; border: 0; border-radius: 0; box-shadow: none; }
+[data-theme='47-exaggerated-minimalism'] .brand-mark i { background: #fff; }
+[data-theme='47-exaggerated-minimalism'] .section-nav a,
+[data-theme='47-exaggerated-minimalism'] .utility-nav a { color: #000; background: transparent; border-radius: 0; font-size: 13px; font-weight: 700; text-transform: uppercase; }
+[data-theme='47-exaggerated-minimalism'] .section-nav a:hover,
+[data-theme='47-exaggerated-minimalism'] .section-nav a.active,
+[data-theme='47-exaggerated-minimalism'] .utility-nav a:hover { color: #000; background: transparent; box-shadow: inset 0 -2px var(--accent); }
+[data-theme='47-exaggerated-minimalism'] .theme-switcher select { color: #000; background: #fff; border: 2px solid #000; border-radius: 0; box-shadow: none; font-weight: 700; text-transform: uppercase; }
+[data-theme='47-exaggerated-minimalism'] .ticker { color: #000; background: #fff; border-bottom: 1px solid #000; font-weight: 900; text-transform: uppercase; }
+
+[data-theme='47-exaggerated-minimalism'] .hero-section { padding-block: clamp(80px,14vw,128px); background: #fff; border-bottom: 1px solid #000; }
+[data-theme='47-exaggerated-minimalism'] .hero-grid { display: block; }
+[data-theme='47-exaggerated-minimalism'] .hero-grid > div:first-child { width: 100%; }
+[data-theme='47-exaggerated-minimalism'] .eyebrow { margin-bottom: 48px; padding: 0; color: #000; background: transparent; border: 0; border-radius: 0; font-size: 13px; font-weight: 700; letter-spacing: .35em; text-transform: uppercase; }
+[data-theme='47-exaggerated-minimalism'] .eyebrow::before { display: inline-block; width: 3em; height: 2px; margin-right: 1em; content: ''; vertical-align: middle; background: var(--accent); }
+[data-theme='47-exaggerated-minimalism'] .hero-section h1 { max-width: none; margin: 0; color: #000; font-size: clamp(58px,9.4vw,120px); font-weight: 900; line-height: .95; letter-spacing: -.06em; text-transform: uppercase; }
+[data-theme='47-exaggerated-minimalism'] .hero-section h1 span { color: var(--accent); }
+[data-theme='47-exaggerated-minimalism'] .hero-section h1 br + * { color: transparent; -webkit-text-stroke: 2px #000; }
+[data-theme='47-exaggerated-minimalism'] .cursor { width: 14px; height: .8em; background: var(--accent); }
+[data-theme='47-exaggerated-minimalism'] .hero-section > .hero-grid > div:first-child > p { max-width: 26em; margin-block: 48px; color: #000; font-size: 18px; }
+[data-theme='47-exaggerated-minimalism'] .hero-actions { gap: 16px; }
+[data-theme='47-exaggerated-minimalism'] .pixel-button { min-height: 50px; padding: 12px 28px; color: #fff; background: #000; border: 2px solid #000; border-radius: 0; box-shadow: none; font-weight: 700; letter-spacing: .04em; text-transform: uppercase; }
+[data-theme='47-exaggerated-minimalism'] .pixel-button:hover { color: #000; background: var(--accent); border-color: var(--accent); transform: none; }
+[data-theme='47-exaggerated-minimalism'] .pixel-button.secondary { color: #000; background: transparent; }
+[data-theme='47-exaggerated-minimalism'] .pixel-button.secondary:hover { color: #fff; background: #000; }
+[data-theme='47-exaggerated-minimalism'] .knowledge-console { display: none; }
+
+[data-theme='47-exaggerated-minimalism'] .stats-strip { padding-block: clamp(70px,10vw,110px); border-bottom: 1px solid #000; }
+[data-theme='47-exaggerated-minimalism'] .stats-strip article { padding: 28px 0; color: #000; background: #fff; border: 0; border-top: 2px solid #000; border-radius: 0; box-shadow: none; }
+[data-theme='47-exaggerated-minimalism'] .stats-strip svg { color: var(--accent); }
+[data-theme='47-exaggerated-minimalism'] .stats-strip b { font-size: 22px; font-weight: 900; letter-spacing: -.04em; text-transform: uppercase; }
+[data-theme='47-exaggerated-minimalism'] .section-block { padding-block: clamp(80px,12vw,128px); border-bottom: 1px solid #000; }
+[data-theme='47-exaggerated-minimalism'] .section-heading span,
+[data-theme='47-exaggerated-minimalism'] .page-heading > span { padding: 0; color: var(--accent); background: transparent; border: 0; border-radius: 0; font-weight: 900; letter-spacing: .2em; }
+[data-theme='47-exaggerated-minimalism'] .section-heading h2,
+[data-theme='47-exaggerated-minimalism'] .page-heading h1 { color: #000; font-size: clamp(34px,4vw,52px); font-weight: 900; letter-spacing: -.05em; text-transform: uppercase; }
+[data-theme='47-exaggerated-minimalism'] .directory-grid,
+[data-theme='47-exaggerated-minimalism'] .content-grid { gap: 0; border: 2px solid #000; }
+[data-theme='47-exaggerated-minimalism'] .directory-card,
+[data-theme='47-exaggerated-minimalism'] .content-card { color: #000; background: #fff; border: 0; border-right: 2px solid #000; border-radius: 0; box-shadow: none; }
+[data-theme='47-exaggerated-minimalism'] .directory-card:nth-child(3n),
+[data-theme='47-exaggerated-minimalism'] .content-card:last-child { border-right: 0; }
+[data-theme='47-exaggerated-minimalism'] .directory-card:hover,
+[data-theme='47-exaggerated-minimalism'] .content-card:hover { color: #fff; background: #000; transform: none; }
+[data-theme='47-exaggerated-minimalism'] .directory-card:hover h2,
+[data-theme='47-exaggerated-minimalism'] .content-card:hover h2,
+[data-theme='47-exaggerated-minimalism'] .content-card:hover a { color: #fff; }
+[data-theme='47-exaggerated-minimalism'] .directory-card > svg { color: var(--accent); }
+[data-theme='47-exaggerated-minimalism'] .directory-index,
+[data-theme='47-exaggerated-minimalism'] .section-chip { padding: 0; color: var(--accent); background: transparent; border: 0; border-radius: 0; font-weight: 900; letter-spacing: .2em; }
+[data-theme='47-exaggerated-minimalism'] .directory-card h2,
+[data-theme='47-exaggerated-minimalism'] .content-card h2 { color: #000; font-weight: 900; letter-spacing: -.04em; text-transform: uppercase; }
+[data-theme='47-exaggerated-minimalism'] .explorer-tools,
+[data-theme='47-exaggerated-minimalism'] .article-body,
+[data-theme='47-exaggerated-minimalism'] .submit-form { color: #000; background: #fff; border: 2px solid #000; border-radius: 0; box-shadow: none; }
+[data-theme='47-exaggerated-minimalism'] .search-field input,
+[data-theme='47-exaggerated-minimalism'] .submit-form input,
+[data-theme='47-exaggerated-minimalism'] .submit-form textarea,
+[data-theme='47-exaggerated-minimalism'] .submit-form select { color: #000; background: transparent; border: 0; border-bottom: 2px solid #000; border-radius: 0; box-shadow: none; }
+[data-theme='47-exaggerated-minimalism'] .principles-section { color: #fff; background: #000; border: 0; }
+[data-theme='47-exaggerated-minimalism'] .growth-stage svg { color: var(--accent); filter: none; }
+[data-theme='47-exaggerated-minimalism'] .principles-kicker { color: #000; background: var(--accent); border: 0; border-radius: 0; }
+[data-theme='47-exaggerated-minimalism'] .principles-content > h2 { color: #fff; font-weight: 900; letter-spacing: -.05em; text-transform: uppercase; }
+[data-theme='47-exaggerated-minimalism'] .principles-content > h2 span { color: var(--accent); border-color: var(--accent); }
+[data-theme='47-exaggerated-minimalism'] .principles-content mark { color: #000; background: var(--accent); }
+[data-theme='47-exaggerated-minimalism'] .principles-list { border-color: #fff; }
+[data-theme='47-exaggerated-minimalism'] .site-footer { color: #fff; background: #000; border-top: 1px solid #fff; }
+
+@media (max-width: 860px) {
+  [data-theme='47-exaggerated-minimalism'] .directory-grid,
+  [data-theme='47-exaggerated-minimalism'] .content-grid { display: block; }
+  [data-theme='47-exaggerated-minimalism'] .directory-card,
+  [data-theme='47-exaggerated-minimalism'] .content-card { border-right: 0; border-bottom: 2px solid #000; }
+}

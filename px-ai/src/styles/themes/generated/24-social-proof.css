@@ -1,0 +1,44 @@
+/* Generated from designs/24-social-proof/DESIGN.md. Do not edit manually. */
+[data-theme='24-social-proof'] {
+  --color-trust: #1d4ed8;
+  --color-trust-deep: #1e40af;
+  --color-growth: #15803d;
+  --color-star-color: #fbbf24;
+  --color-testimonial-bg: #f9fafb;
+  --color-ink: #111827;
+  --color-muted: #4b5563;
+  --color-line: #e5e7eb;
+  --color-bg: #ffffff;
+  --color-primary: #111827;
+  --color-on-primary: #ffffff;
+  --color-surface: #ffffff;
+  --color-on-surface: #111827;
+  --spacing-unit: 8px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 32px;
+  --rounded-radius: 14px;
+  --rounded-DEFAULT: 14px;
+
+  /* PX AI application theme contract. */
+  --pixel: 1px;
+  --ink: var(--color-on-surface);
+  --paper: var(--color-testimonial-bg);
+  --bg: var(--color-bg);
+  --red: var(--color-primary);
+  --blue: var(--color-primary);
+  --green: var(--color-primary);
+  --yellow: var(--color-primary);
+  --on-red: #ffffff;
+  --on-blue: #ffffff;
+  --on-green: #ffffff;
+  --on-yellow: #ffffff;
+  --on-accent: #ffffff;
+  --muted: var(--color-muted);
+  --soft-line: var(--color-line);
+  --border: var(--color-line);
+  --hover-surface: var(--color-surface);
+  --placeholder: var(--color-muted);
+  --font-pixel: 'Plus Jakarta Sans', 'Microsoft YaHei', sans-serif;
+  --font-body: 'Plus Jakarta Sans', 'Microsoft YaHei', sans-serif;
+}

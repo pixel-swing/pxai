@@ -1,0 +1,47 @@
+/* Generated from designs/31-realtime-monitoring/DESIGN.md. Do not edit manually. */
+[data-theme='31-realtime-monitoring'] {
+  --color-bg: #0b1220;
+  --color-surface: #111a2e;
+  --color-surface-2: #0e1626;
+  --color-line: #94a3b82e;
+  --color-ink: #e6edf7;
+  --color-muted: #9fb0c7;
+  --color-live-indicator: #22c55e;
+  --color-warning-color: #ffa500;
+  --color-critical-color: #dc2626;
+  --color-critical-text: #f87171;
+  --color-info: #3b82f6;
+  --color-info-text: #60a5fa;
+  --color-primary: #e6edf7;
+  --color-on-primary: #000000;
+  --color-on-surface: #e6edf7;
+  --spacing-unit: 8px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 32px;
+  --rounded-radius: 12px;
+  --rounded-DEFAULT: 12px;
+
+  /* PX AI application theme contract. */
+  --pixel: 1px;
+  --ink: var(--color-on-surface);
+  --paper: var(--color-surface);
+  --bg: var(--color-bg);
+  --red: var(--color-primary);
+  --blue: var(--color-info);
+  --green: var(--color-primary);
+  --yellow: var(--color-warning-color);
+  --on-red: #000000;
+  --on-blue: #000000;
+  --on-green: #000000;
+  --on-yellow: #000000;
+  --on-accent: #000000;
+  --muted: var(--color-muted);
+  --soft-line: var(--color-line);
+  --border: var(--color-line);
+  --hover-surface: var(--color-surface);
+  --placeholder: var(--color-muted);
+  --font-pixel: 'Inter', 'Microsoft YaHei', sans-serif;
+  --font-body: 'JetBrains Mono', 'Microsoft YaHei', sans-serif;
+  color-scheme: dark;
+}

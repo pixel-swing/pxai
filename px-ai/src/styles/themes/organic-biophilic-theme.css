@@ -1,0 +1,92 @@
+[data-theme='42-organic-biophilic'] {
+  --forest: #1b6e1b;
+  --leaf: #228b22;
+  --earth: #8b4513;
+  --sky: #87ceeb;
+  --ink: #33261a;
+  --paper: #fdfbef;
+  --bg: #f5f5dc;
+  --border: rgba(34,139,34,.25);
+  --muted: #5c4a33;
+  --font-pixel: 'Fraunces', Georgia, serif;
+  --font-body: 'Nunito', 'Microsoft YaHei', sans-serif;
+  color-scheme: light;
+}
+[data-theme='42-organic-biophilic'] body { color: var(--ink); background-color: var(--bg); background-image: radial-gradient(rgba(139,69,19,.05) 1px,transparent 1px); background-size: 26px 26px; font: 400 16.5px/1.65 var(--font-body); }
+[data-theme='42-organic-biophilic'] :focus-visible { outline: 3px solid var(--forest); outline-offset: 3px; border-radius: 8px; }
+[data-theme='42-organic-biophilic'] .site-header { background: rgba(245,245,220,.9); border-bottom: 1px solid rgba(34,139,34,.18); backdrop-filter: blur(8px); }
+[data-theme='42-organic-biophilic'] .brand { color: var(--forest); font-family: var(--font-pixel); font-size: 19px; }
+[data-theme='42-organic-biophilic'] .brand-mark { background: #e8f0db; border: 0; border-radius: 58% 42% 55% 45% / 52% 58% 42% 48%; box-shadow: none; }
+[data-theme='42-organic-biophilic'] .brand-mark i { background: var(--forest); }
+[data-theme='42-organic-biophilic'] .section-nav a,
+[data-theme='42-organic-biophilic'] .utility-nav a { color: #5c4a33; font-weight: 700; }
+[data-theme='42-organic-biophilic'] .section-nav a:hover,
+[data-theme='42-organic-biophilic'] .section-nav a.active,
+[data-theme='42-organic-biophilic'] .utility-nav a:hover { color: var(--forest); background: #e8f0db; }
+[data-theme='42-organic-biophilic'] .theme-switcher select { color: var(--ink); background: #fdfbef; border: 1px solid rgba(34,139,34,.25); border-radius: 999px; box-shadow: 0 5px 18px rgba(0,0,0,.06); font-weight: 700; }
+[data-theme='42-organic-biophilic'] .ticker { color: #fff; background: var(--forest); border: 0; }
+
+[data-theme='42-organic-biophilic'] .hero-section { padding-block: 80px 72px; background: transparent; border: 0; }
+[data-theme='42-organic-biophilic'] .hero-grid { grid-template-columns: minmax(0,1.1fr) minmax(0,.9fr); gap: 44px; }
+[data-theme='42-organic-biophilic'] .eyebrow { padding: 8px 16px; color: var(--forest); background: #e8f0db; border: 0; border-radius: 999px; font: 800 14px/1.4 var(--font-body); letter-spacing: .04em; }
+[data-theme='42-organic-biophilic'] .eyebrow::before { content: '●'; color: var(--leaf); font-size: 10px; }
+[data-theme='42-organic-biophilic'] .hero-section h1 { margin-block: 16px; color: var(--ink); font: 700 clamp(36px,5.5vw,54px)/1.2 var(--font-pixel); letter-spacing: 0; }
+[data-theme='42-organic-biophilic'] .hero-section h1 span { color: var(--forest); }
+[data-theme='42-organic-biophilic'] .cursor { background: var(--forest); border-radius: 50% 40% 50% 40%; }
+[data-theme='42-organic-biophilic'] .hero-section > .hero-grid > div:first-child > p { max-width: 50ch; margin-bottom: 28px; color: var(--muted); }
+[data-theme='42-organic-biophilic'] .pixel-button { min-height: 48px; padding: 11px 26px; color: #fff; background: var(--forest); border: 2px solid transparent; border-radius: 999px; box-shadow: 0 10px 24px rgba(27,110,27,.25); font-weight: 800; }
+[data-theme='42-organic-biophilic'] .pixel-button:hover { color: #fff; background: var(--leaf); box-shadow: 0 14px 30px rgba(27,110,27,.3); transform: translateY(-3px); }
+[data-theme='42-organic-biophilic'] .pixel-button.secondary { color: var(--forest); background: transparent; border-color: var(--forest); box-shadow: none; }
+[data-theme='42-organic-biophilic'] .pixel-button.secondary:hover { color: var(--forest); background: rgba(34,139,34,.1); }
+
+[data-theme='42-organic-biophilic'] .knowledge-console { position: relative; min-height: 310px; padding: 0; overflow: visible; background: transparent; border: 0; border-radius: 0; box-shadow: none; }
+[data-theme='42-organic-biophilic'] .console-title,
+[data-theme='42-organic-biophilic'] .progress-label,
+[data-theme='42-organic-biophilic'] .pixel-progress,
+[data-theme='42-organic-biophilic'] .knowledge-console > p { display: none; }
+[data-theme='42-organic-biophilic'] .pixel-orbit { position: absolute; inset: 0; display: block; width: 100%; height: 100%; margin: 0; border: 0; }
+[data-theme='42-organic-biophilic'] .pixel-orbit::before { top: 6%; right: 18%; bottom: 22%; left: 4%; width: auto; height: auto; content: '⌁'; color: rgba(255,255,255,.9); background: linear-gradient(135deg,#2e9e46,var(--forest)); border-radius: 58% 42% 55% 45% / 52% 58% 42% 48%; font: 700 72px/1 var(--font-pixel); animation: bio-drift 8s ease-in-out infinite alternate; }
+[data-theme='42-organic-biophilic'] .pixel-orbit::after { top: 0; right: 2%; bottom: auto; left: auto; width: 44%; height: 44%; content: '◌'; color: rgba(255,255,255,.9); background: linear-gradient(135deg,#a8ddf2,var(--sky)); border-radius: 58% 42% 55% 45% / 52% 58% 42% 48%; font: 700 50px/1 var(--font-pixel); animation: bio-drift 8s -3s ease-in-out infinite alternate; }
+[data-theme='42-organic-biophilic'] .pixel-orbit i { display: none !important; }
+[data-theme='42-organic-biophilic'] .pixel-orbit i:nth-child(1) { position: absolute !important; right: 14%; bottom: 4%; display: grid !important; width: 36%; height: 34%; place-items: center; background: linear-gradient(135deg,#b0703b,var(--earth)); border: 0; border-radius: 58% 42% 55% 45% / 52% 58% 42% 48%; animation: bio-drift 8s -5.5s ease-in-out infinite alternate; }
+[data-theme='42-organic-biophilic'] .pixel-orbit i:nth-child(1)::after { content: '☀'; color: rgba(255,255,255,.9); font-size: 38px; font-style: normal; }
+[data-theme='42-organic-biophilic'] .pixel-orbit span { position: absolute; z-index: 3; top: 34%; left: 28%; width: auto; height: auto; color: #fff; background: transparent; font: 700 18px/1 var(--font-pixel); animation: none; }
+@keyframes bio-drift { from { transform: translateY(-8px) rotate(-2deg); } to { transform: translateY(10px) rotate(2.5deg); } }
+
+[data-theme='42-organic-biophilic'] .stats-strip article,
+[data-theme='42-organic-biophilic'] .directory-card,
+[data-theme='42-organic-biophilic'] .content-card,
+[data-theme='42-organic-biophilic'] .explorer-tools,
+[data-theme='42-organic-biophilic'] .article-body,
+[data-theme='42-organic-biophilic'] .submit-form { color: var(--ink); background: var(--paper); border: 0; box-shadow: 0 8px 32px rgba(0,0,0,.08); }
+[data-theme='42-organic-biophilic'] .stats-strip article:nth-child(1),
+[data-theme='42-organic-biophilic'] .directory-card:nth-child(3n+1) { border-radius: 32px 22px 36px 24px; }
+[data-theme='42-organic-biophilic'] .stats-strip article:nth-child(2),
+[data-theme='42-organic-biophilic'] .directory-card:nth-child(3n+2) { border-radius: 22px 36px 24px 32px; }
+[data-theme='42-organic-biophilic'] .stats-strip article:nth-child(3),
+[data-theme='42-organic-biophilic'] .directory-card:nth-child(3n) { border-radius: 36px 24px 32px 22px; }
+[data-theme='42-organic-biophilic'] .content-card { border-radius: 28px 20px 32px 24px; }
+[data-theme='42-organic-biophilic'] .directory-card:hover,
+[data-theme='42-organic-biophilic'] .content-card:hover { box-shadow: 0 16px 40px rgba(0,0,0,.1); transform: translateY(-6px); }
+[data-theme='42-organic-biophilic'] .stats-strip svg,
+[data-theme='42-organic-biophilic'] .directory-card > svg { color: var(--forest); padding: 7px; background: #e8f0db; border-radius: 58% 42% 55% 45%; }
+[data-theme='42-organic-biophilic'] .section-heading span,
+[data-theme='42-organic-biophilic'] .page-heading > span,
+[data-theme='42-organic-biophilic'] .directory-index,
+[data-theme='42-organic-biophilic'] .section-chip { color: var(--forest); background: #e8f0db; border: 0; border-radius: 999px; }
+[data-theme='42-organic-biophilic'] .section-heading h2,
+[data-theme='42-organic-biophilic'] .page-heading h1,
+[data-theme='42-organic-biophilic'] .directory-card h2,
+[data-theme='42-organic-biophilic'] .content-card h2 { color: var(--ink); font-family: var(--font-pixel); }
+[data-theme='42-organic-biophilic'] .search-field input,
+[data-theme='42-organic-biophilic'] .submit-form input,
+[data-theme='42-organic-biophilic'] .submit-form textarea,
+[data-theme='42-organic-biophilic'] .submit-form select { color: var(--ink); background: #fff; border: 1.5px solid #d8d2b8; border-radius: 16px; box-shadow: none; }
+[data-theme='42-organic-biophilic'] .principles-section { color: var(--ink); background: #edf0d9; border: 0; }
+[data-theme='42-organic-biophilic'] .growth-stage svg { color: var(--forest); filter: none; }
+[data-theme='42-organic-biophilic'] .principles-kicker { color: var(--forest); background: #fdfbef; border: 1px solid rgba(34,139,34,.25); border-radius: 999px; }
+[data-theme='42-organic-biophilic'] .principles-content > h2 span { color: var(--forest); border-color: var(--forest); }
+[data-theme='42-organic-biophilic'] .principles-content mark { color: #fff; background: var(--forest); border-radius: 10px 16px 9px 14px; }
+[data-theme='42-organic-biophilic'] .site-footer { color: #e8f0db; background: var(--forest); border: 0; }
+
+@media (max-width: 880px) { [data-theme='42-organic-biophilic'] .hero-grid { grid-template-columns: 1fr; } }

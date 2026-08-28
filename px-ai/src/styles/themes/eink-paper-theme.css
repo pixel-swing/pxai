@@ -1,0 +1,93 @@
+[data-theme='56-eink-paper'] {
+  --highlight: #ffff00;
+  --ink: #1a1a1a;
+  --paper: #fdfbf7;
+  --bg: #fdfbf7;
+  --border: #e0e0e0;
+  --muted: #4a4a4a;
+  --font-pixel: 'Noto Serif SC', Georgia, serif;
+  --font-body: Georgia, 'Noto Serif SC', serif;
+  color-scheme: light;
+}
+[data-theme='56-eink-paper'] * { animation: none !important; transition: none !important; }
+[data-theme='56-eink-paper'] body { color: var(--ink); background-color: var(--paper); background-image: radial-gradient(rgba(26,26,26,.045) .55px,transparent .8px),radial-gradient(rgba(26,26,26,.025) .55px,transparent .8px); background-position: 0 0,7px 9px; background-size: 13px 15px,17px 19px; font: 400 17px/1.8 var(--font-body); }
+[data-theme='56-eink-paper'] :focus-visible { outline: 2px solid var(--ink); outline-offset: 3px; }
+[data-theme='56-eink-paper'] .site-header { background: var(--paper); border-bottom: 1px solid var(--ink); }
+[data-theme='56-eink-paper'] .brand { color: var(--ink); font-family: var(--font-pixel); font-size: 19px; font-weight: 900; }
+[data-theme='56-eink-paper'] .brand-mark { background: var(--ink); border: 1px solid var(--ink); border-radius: 3px; box-shadow: none; }
+[data-theme='56-eink-paper'] .brand-mark i { background: var(--paper); }
+[data-theme='56-eink-paper'] .section-nav a,
+[data-theme='56-eink-paper'] .utility-nav a { color: var(--ink); background: transparent; border-radius: 0; font-family: var(--font-body); }
+[data-theme='56-eink-paper'] .section-nav a:hover,
+[data-theme='56-eink-paper'] .section-nav a.active,
+[data-theme='56-eink-paper'] .utility-nav a:hover { color: var(--ink); background: transparent; box-shadow: inset 0 -1px var(--ink); }
+[data-theme='56-eink-paper'] .theme-switcher select { color: var(--ink); background: var(--paper); border: 1px solid var(--ink); border-radius: 3px; box-shadow: none; font-family: var(--font-body); }
+[data-theme='56-eink-paper'] .ticker { color: var(--muted); background: var(--paper); border-bottom: 1px dashed var(--border); letter-spacing: .14em; }
+
+[data-theme='56-eink-paper'] .hero-section { padding-block: 64px 52px; background: transparent; border-bottom: 1px solid var(--border); }
+[data-theme='56-eink-paper'] .hero-grid { grid-template-columns: minmax(0,1.1fr) minmax(360px,.9fr); gap: 44px; }
+[data-theme='56-eink-paper'] .eyebrow { padding: 6px 14px; color: var(--muted); background: transparent; border: 1px solid var(--border); border-radius: 3px; font: 400 13px/1.4 var(--font-body); letter-spacing: .3em; }
+[data-theme='56-eink-paper'] .hero-section h1 { margin-block: 20px; color: var(--ink); font: 900 clamp(38px,6vw,56px)/1.3 var(--font-pixel); }
+[data-theme='56-eink-paper'] .hero-section h1 span { padding-inline: .1em; color: var(--ink); background: var(--highlight); }
+[data-theme='56-eink-paper'] .cursor { background: var(--ink); }
+[data-theme='56-eink-paper'] .hero-section > .hero-grid > div:first-child > p { max-width: 520px; margin-bottom: 30px; color: var(--muted); }
+[data-theme='56-eink-paper'] .pixel-button { min-height: 44px; padding: 11px 22px; color: var(--paper); background: var(--ink); border: 1px solid var(--ink); border-radius: 3px; box-shadow: none; font: 600 15px/1 var(--font-body); }
+[data-theme='56-eink-paper'] .pixel-button:hover { color: var(--ink); background: var(--paper); transform: none; }
+[data-theme='56-eink-paper'] .pixel-button.secondary { color: var(--ink); background: var(--paper); }
+[data-theme='56-eink-paper'] .pixel-button.secondary:hover { color: var(--paper); background: var(--ink); }
+
+[data-theme='56-eink-paper'] .knowledge-console { min-height: 286px; padding: 22px 22px 16px; color: var(--ink); background: var(--paper); border: 1px solid var(--ink); border-radius: 10px; box-shadow: 4px 4px #f5f5f5,4px 4px 0 1px var(--border); }
+[data-theme='56-eink-paper'] .console-title { display: flex; padding-bottom: 10px; color: var(--muted); border-bottom: 1px solid var(--border); font: 600 13px/1.4 var(--font-body); }
+[data-theme='56-eink-paper'] .console-title span:last-child { margin-left: auto; }
+[data-theme='56-eink-paper'] .pixel-orbit { display: block; width: 100%; height: 126px; margin: 14px 0; border: 0; }
+[data-theme='56-eink-paper'] .pixel-orbit::before,
+[data-theme='56-eink-paper'] .pixel-orbit::after { position: static; display: block; width: 92%; height: 9px; margin: 11px 0; content: ''; background: repeating-linear-gradient(90deg,var(--ink) 0 7px,transparent 7px 11px); opacity: .72; }
+[data-theme='56-eink-paper'] .pixel-orbit::after { width: 62%; }
+[data-theme='56-eink-paper'] .pixel-orbit i { position: static; display: block; width: 82%; height: 9px; margin: 11px 0; background: repeating-linear-gradient(90deg,var(--ink) 0 7px,transparent 7px 11px); border: 0; border-radius: 1px; opacity: .72; transform: none; }
+[data-theme='56-eink-paper'] .pixel-orbit i:nth-child(2) { width: 74%; }
+[data-theme='56-eink-paper'] .pixel-orbit i:nth-child(3) { width: 78%; height: 13px; background: var(--highlight); opacity: 1; }
+[data-theme='56-eink-paper'] .pixel-orbit i:nth-child(4) { width: 54%; }
+[data-theme='56-eink-paper'] .pixel-orbit span { display: none; }
+[data-theme='56-eink-paper'] .progress-label { display: flex; padding-top: 10px; color: var(--muted); border-top: 1px solid var(--border); font-size: 12px; letter-spacing: .12em; }
+[data-theme='56-eink-paper'] .progress-label span:last-child { margin-left: auto; }
+[data-theme='56-eink-paper'] .pixel-progress { height: 4px; margin-block: 8px; background: #f5f5f5; border: 1px solid var(--border); }
+[data-theme='56-eink-paper'] .pixel-progress i { width: 37%; background: var(--ink); }
+[data-theme='56-eink-paper'] .knowledge-console > p { display: none; }
+
+[data-theme='56-eink-paper'] .stats-strip { gap: 0; border: 1px solid var(--border); border-radius: 6px; overflow: hidden; }
+[data-theme='56-eink-paper'] .stats-strip article,
+[data-theme='56-eink-paper'] .directory-card,
+[data-theme='56-eink-paper'] .content-card,
+[data-theme='56-eink-paper'] .explorer-tools,
+[data-theme='56-eink-paper'] .article-body,
+[data-theme='56-eink-paper'] .submit-form { color: var(--ink); background: var(--paper); border: 1px solid var(--border); border-radius: 6px; box-shadow: none; }
+[data-theme='56-eink-paper'] .stats-strip article { border: 0; border-right: 1px solid var(--border); border-radius: 0; }
+[data-theme='56-eink-paper'] .stats-strip article:last-child { border-right: 0; }
+[data-theme='56-eink-paper'] .directory-grid,
+[data-theme='56-eink-paper'] .content-grid { gap: 0; border: 1px solid var(--border); border-radius: 6px; overflow: hidden; }
+[data-theme='56-eink-paper'] .directory-card,
+[data-theme='56-eink-paper'] .content-card { border: 0; border-right: 1px solid var(--border); border-radius: 0; }
+[data-theme='56-eink-paper'] .directory-card:hover,
+[data-theme='56-eink-paper'] .content-card:hover { background: #f5f5f5; transform: none; }
+[data-theme='56-eink-paper'] .stats-strip svg,
+[data-theme='56-eink-paper'] .directory-card > svg { color: var(--ink); border: 1px solid var(--ink); border-radius: 50%; }
+[data-theme='56-eink-paper'] .section-heading span,
+[data-theme='56-eink-paper'] .page-heading > span,
+[data-theme='56-eink-paper'] .directory-index,
+[data-theme='56-eink-paper'] .section-chip { color: var(--muted); background: transparent; border: 1px solid var(--border); border-radius: 3px; letter-spacing: .15em; }
+[data-theme='56-eink-paper'] .section-heading h2,
+[data-theme='56-eink-paper'] .page-heading h1,
+[data-theme='56-eink-paper'] .directory-card h2,
+[data-theme='56-eink-paper'] .content-card h2 { color: var(--ink); font-family: var(--font-pixel); }
+[data-theme='56-eink-paper'] .search-field input,
+[data-theme='56-eink-paper'] .submit-form input,
+[data-theme='56-eink-paper'] .submit-form textarea,
+[data-theme='56-eink-paper'] .submit-form select { color: var(--ink); background: var(--paper); border: 0; border-bottom: 1px solid var(--muted); border-radius: 0; box-shadow: none; font-family: var(--font-body); }
+[data-theme='56-eink-paper'] .principles-section { color: var(--ink); background: #f5f5f5; border-block: 1px solid var(--ink); }
+[data-theme='56-eink-paper'] .growth-stage svg { color: var(--ink); filter: none; }
+[data-theme='56-eink-paper'] .principles-kicker { color: var(--ink); background: var(--paper); border: 1px solid var(--ink); border-radius: 3px; }
+[data-theme='56-eink-paper'] .principles-content > h2 span { color: var(--ink); border-color: var(--ink); }
+[data-theme='56-eink-paper'] .principles-content mark { color: var(--ink); background: var(--highlight); border-radius: 0; }
+[data-theme='56-eink-paper'] .site-footer { color: var(--muted); background: #f5f5f5; border-top: 1px solid var(--ink); }
+
+@media (max-width: 880px) { [data-theme='56-eink-paper'] .hero-grid { grid-template-columns: 1fr; } }

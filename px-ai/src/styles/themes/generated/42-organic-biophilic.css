@@ -1,0 +1,49 @@
+/* Generated from designs/42-organic-biophilic/DESIGN.md. Do not edit manually. */
+[data-theme='42-organic-biophilic'] {
+  --color-forest-green: #228b22;
+  --color-forest-deep: #1b6e1b;
+  --color-earth-brown: #8b4513;
+  --color-sky-blue: #87ceeb;
+  --color-cream-bg: #f5f5dc;
+  --color-card-bg: #fdfbef;
+  --color-ink: #33261a;
+  --color-ink-soft: #5c4a33;
+  --color-background: #f5f5dc;
+  --color-on-background: #33261a;
+  --color-primary: #1b6e1b;
+  --color-on-primary: #ffffff;
+  --color-secondary: #87ceeb;
+  --color-on-secondary: #215d7a;
+  --color-tertiary: #8b4513;
+  --color-on-tertiary: #ffffff;
+  --color-surface: #fdfbef;
+  --color-on-surface: #33261a;
+  --spacing-unit: 8px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 32px;
+  --rounded-organic-radius: 24px;
+  --rounded-DEFAULT: 24px;
+
+  /* PX AI application theme contract. */
+  --pixel: 1px;
+  --ink: var(--color-on-background);
+  --paper: var(--color-surface);
+  --bg: var(--color-background);
+  --red: var(--color-tertiary);
+  --blue: var(--color-sky-blue);
+  --green: var(--color-forest-green);
+  --yellow: var(--color-secondary);
+  --on-red: #ffffff;
+  --on-blue: #000000;
+  --on-green: #000000;
+  --on-yellow: #000000;
+  --on-accent: #ffffff;
+  --muted: var(--color-secondary);
+  --soft-line: var(--color-secondary);
+  --border: var(--color-secondary);
+  --hover-surface: var(--color-surface);
+  --placeholder: var(--color-secondary);
+  --font-pixel: 'Fraunces', 'Microsoft YaHei', sans-serif;
+  --font-body: 'Nunito', 'Microsoft YaHei', sans-serif;
+}

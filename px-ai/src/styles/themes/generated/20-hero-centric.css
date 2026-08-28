@@ -1,0 +1,46 @@
+/* Generated from designs/20-hero-centric/DESIGN.md. Do not edit manually. */
+[data-theme='20-hero-centric'] {
+  --color-indigo-deep: #1e1b4b;
+  --color-indigo: #312e81;
+  --color-violet: #6d28d9;
+  --color-link: #4f46e5;
+  --color-cta: #facc15;
+  --color-cta-hover: #fde047;
+  --color-ink: #1e1b4b;
+  --color-ink-soft: #475569;
+  --color-bg: #ffffff;
+  --color-bg-alt: #f8fafc;
+  --color-line: #e2e8f0;
+  --color-primary: #1e1b4b;
+  --color-on-primary: #ffffff;
+  --color-surface: #ffffff;
+  --color-on-surface: #1e1b4b;
+  --spacing-unit: 8px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 32px;
+  --rounded-radius: 14px;
+  --rounded-DEFAULT: 14px;
+
+  /* PX AI application theme contract. */
+  --pixel: 1px;
+  --ink: var(--color-on-surface);
+  --paper: var(--color-bg-alt);
+  --bg: var(--color-bg);
+  --red: var(--color-primary);
+  --blue: var(--color-link);
+  --green: var(--color-primary);
+  --yellow: var(--color-violet);
+  --on-red: #ffffff;
+  --on-blue: #ffffff;
+  --on-green: #ffffff;
+  --on-yellow: #ffffff;
+  --on-accent: #ffffff;
+  --muted: var(--color-on-surface);
+  --soft-line: var(--color-line);
+  --border: var(--color-line);
+  --hover-surface: var(--color-cta-hover);
+  --placeholder: var(--color-on-surface);
+  --font-pixel: 'Sora', 'Microsoft YaHei', sans-serif;
+  --font-body: 'Sora', 'Microsoft YaHei', sans-serif;
+}

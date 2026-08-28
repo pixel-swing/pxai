@@ -1,0 +1,53 @@
+/* Generated from designs/03-glassmorphism/DESIGN.md. Do not edit manually. */
+[data-theme='03-glassmorphism'] {
+  --color-glass-bg: #ffffff24;
+  --color-glass-bg-strong: #ffffff38;
+  --color-glass-border: #ffffff47;
+  --color-c-blue: #0080ff;
+  --color-c-purple: #8b00ff;
+  --color-c-pink: #ff1493;
+  --color-c-teal: #20b2aa;
+  --color-text-color: #ffffff;
+  --color-text-dim: #ffffffd1;
+  --color-primary: #ff1493;
+  --color-on-primary: #ffffff;
+  --color-secondary: #0080ff;
+  --color-on-secondary: #ffffff;
+  --color-tertiary: #20b2aa;
+  --color-on-tertiary: #170b44;
+  --color-background: #170b44;
+  --color-on-background: #ffffff;
+  --color-surface: #ffffff24;
+  --color-on-surface: #ffffff;
+  --color-surface-container: #ffffff38;
+  --color-outline: #ffffff47;
+  --spacing-unit: 8px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 32px;
+  --rounded-radius: 20px;
+  --rounded-DEFAULT: 20px;
+
+  /* PX AI application theme contract. */
+  --pixel: 1px;
+  --ink: var(--color-text-color);
+  --paper: var(--color-surface);
+  --bg: var(--color-background);
+  --red: var(--color-c-pink);
+  --blue: var(--color-c-blue);
+  --green: var(--color-tertiary);
+  --yellow: var(--color-c-purple);
+  --on-red: #000000;
+  --on-blue: #000000;
+  --on-green: #000000;
+  --on-yellow: #ffffff;
+  --on-accent: #000000;
+  --muted: var(--color-secondary);
+  --soft-line: var(--color-glass-border);
+  --border: var(--color-glass-border);
+  --hover-surface: var(--color-surface);
+  --placeholder: var(--color-secondary);
+  --font-pixel: 'Outfit', 'Microsoft YaHei', sans-serif;
+  --font-body: 'Inter', 'Microsoft YaHei', sans-serif;
+  color-scheme: dark;
+}

@@ -1,0 +1,46 @@
+/* Generated from designs/81-bitcoin-defi/DESIGN.md. Do not edit manually. */
+[data-theme='81-bitcoin-defi'] {
+  --color-bg-void: #030304;
+  --color-bg-surface: #0f1115;
+  --color-fg: #ffffff;
+  --color-fg-muted: #94a3b8;
+  --color-border-dim: #1e293b8c;
+  --color-border-lit: #94a3b82e;
+  --color-accent-bitcoin: #f7931a;
+  --color-accent-burnt: #ea580c;
+  --color-accent-gold: #ffd600;
+  --color-primary: #ffffff;
+  --color-on-primary: #000000;
+  --color-surface: #030304;
+  --color-on-surface: #ffffff;
+  --spacing-unit: 8px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 32px;
+  --rounded-radius-card: 24px;
+  --rounded-radius-pill: 999px;
+  --rounded-DEFAULT: 24px;
+
+  /* PX AI application theme contract. */
+  --pixel: 1px;
+  --ink: var(--color-on-surface);
+  --paper: var(--color-bg-surface);
+  --bg: var(--color-bg-void);
+  --red: var(--color-primary);
+  --blue: var(--color-primary);
+  --green: var(--color-primary);
+  --yellow: var(--color-accent-gold);
+  --on-red: #000000;
+  --on-blue: #000000;
+  --on-green: #000000;
+  --on-yellow: #000000;
+  --on-accent: #000000;
+  --muted: var(--color-fg-muted);
+  --soft-line: var(--color-border-dim);
+  --border: var(--color-border-dim);
+  --hover-surface: var(--color-surface);
+  --placeholder: var(--color-fg-muted);
+  --font-pixel: 'Space Grotesk', 'Microsoft YaHei', sans-serif;
+  --font-body: 'Inter', 'Microsoft YaHei', sans-serif;
+  color-scheme: dark;
+}

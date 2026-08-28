@@ -1,0 +1,46 @@
+/* Generated from designs/82-claymorphism-mobile/DESIGN.md. Do not edit manually. */
+[data-theme='82-claymorphism-mobile'] {
+  --color-bg: #f4f1fa;
+  --color-card-bg: #ffffffb3;
+  --color-text: #332f3a;
+  --color-muted: #635f69;
+  --color-accent: #7c3aed;
+  --color-accent2: #db2777;
+  --color-success: #10b981;
+  --color-warning: #f59e0b;
+  --color-primary: #7c3aed;
+  --color-on-primary: #ffffff;
+  --color-surface: #f4f1fa;
+  --color-on-surface: #332f3a;
+  --spacing-unit: 8px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 32px;
+  --rounded-radius-outer: 50px;
+  --rounded-radius-card: 32px;
+  --rounded-radius-inner: 24px;
+  --rounded-radius-button: 20px;
+  --rounded-DEFAULT: 50px;
+
+  /* PX AI application theme contract. */
+  --pixel: 1px;
+  --ink: var(--color-on-surface);
+  --paper: var(--color-card-bg);
+  --bg: var(--color-bg);
+  --red: var(--color-primary);
+  --blue: var(--color-primary);
+  --green: var(--color-success);
+  --yellow: var(--color-warning);
+  --on-red: #ffffff;
+  --on-blue: #ffffff;
+  --on-green: #000000;
+  --on-yellow: #000000;
+  --on-accent: #ffffff;
+  --muted: var(--color-muted);
+  --soft-line: var(--color-primary);
+  --border: var(--color-primary);
+  --hover-surface: var(--color-surface);
+  --placeholder: var(--color-muted);
+  --font-pixel: 'Nunito', 'Microsoft YaHei', sans-serif;
+  --font-body: 'DM Sans', 'Microsoft YaHei', sans-serif;
+}

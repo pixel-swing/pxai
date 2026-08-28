@@ -1,0 +1,45 @@
+/* Generated from designs/26-trust-authority/DESIGN.md. Do not edit manually. */
+[data-theme='26-trust-authority'] {
+  --color-trust-color: #1e40af;
+  --color-trust-deep: #1e3a8a;
+  --color-security-green: #059669;
+  --color-metric-highlight: #f59e0b;
+  --color-gold: #b45309;
+  --color-silver: #94a3b8;
+  --color-ink: #0f172a;
+  --color-muted: #475569;
+  --color-bg: #f8fafc;
+  --color-surface: #ffffff;
+  --color-line: #e2e8f0;
+  --color-primary: #0f172a;
+  --color-on-primary: #ffffff;
+  --color-on-surface: #0f172a;
+  --spacing-unit: 8px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 32px;
+  --rounded-radius: 12px;
+  --rounded-DEFAULT: 12px;
+
+  /* PX AI application theme contract. */
+  --pixel: 1px;
+  --ink: var(--color-on-surface);
+  --paper: var(--color-surface);
+  --bg: var(--color-bg);
+  --red: var(--color-primary);
+  --blue: var(--color-primary);
+  --green: var(--color-security-green);
+  --yellow: var(--color-gold);
+  --on-red: #ffffff;
+  --on-blue: #ffffff;
+  --on-green: #000000;
+  --on-yellow: #ffffff;
+  --on-accent: #ffffff;
+  --muted: var(--color-muted);
+  --soft-line: var(--color-line);
+  --border: var(--color-line);
+  --hover-surface: var(--color-surface);
+  --placeholder: var(--color-muted);
+  --font-pixel: 'Source Serif 4', 'Microsoft YaHei', sans-serif;
+  --font-body: 'Inter', 'Microsoft YaHei', sans-serif;
+}

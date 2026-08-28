@@ -1,0 +1,48 @@
+/* Generated from designs/30-executive-dashboard/DESIGN.md. Do not edit manually. */
+[data-theme='30-executive-dashboard'] {
+  --color-status-green: #22c55e;
+  --color-status-yellow: #f59e0b;
+  --color-status-red: #ef4444;
+  --color-navy: #003366;
+  --color-navy-deep: #00284f;
+  --color-bg: #f1f5f9;
+  --color-card: #ffffff;
+  --color-ink: #0f172a;
+  --color-muted: #475569;
+  --color-line: #e2e8f0;
+  --color-focus: #1d4ed8;
+  --color-ok-t: #166534;
+  --color-warn-t: #92400e;
+  --color-bad-t: #991b1b;
+  --color-primary: #0f172a;
+  --color-on-primary: #ffffff;
+  --color-surface: #f1f5f9;
+  --color-on-surface: #0f172a;
+  --spacing-unit: 8px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 32px;
+  --rounded-DEFAULT: 4px;
+
+  /* PX AI application theme contract. */
+  --pixel: 1px;
+  --ink: var(--color-on-surface);
+  --paper: var(--color-card);
+  --bg: var(--color-bg);
+  --red: var(--color-status-red);
+  --blue: var(--color-primary);
+  --green: var(--color-status-green);
+  --yellow: var(--color-status-yellow);
+  --on-red: #000000;
+  --on-blue: #ffffff;
+  --on-green: #000000;
+  --on-yellow: #000000;
+  --on-accent: #ffffff;
+  --muted: var(--color-muted);
+  --soft-line: var(--color-line);
+  --border: var(--color-line);
+  --hover-surface: var(--color-surface);
+  --placeholder: var(--color-muted);
+  --font-pixel: 'Inter', 'Microsoft YaHei', sans-serif;
+  --font-body: 'Noto Sans SC', 'Microsoft YaHei', sans-serif;
+}

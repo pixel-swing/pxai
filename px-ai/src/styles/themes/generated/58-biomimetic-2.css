@@ -1,0 +1,44 @@
+/* Generated from designs/58-biomimetic-2/DESIGN.md. Do not edit manually. */
+[data-theme='58-biomimetic-2'] {
+  --color-cellular-pink: #ff9999;
+  --color-chlorophyll: #00ff41;
+  --color-bioluminescent: #00ffff;
+  --color-deep-ocean: #001e3c;
+  --color-abyss: #001228;
+  --color-coral: #ff7f50;
+  --color-ink: #e9f7f0;
+  --color-ink-dim: #afccc3;
+  --color-btn-ink: #00250f;
+  --color-primary: #e9f7f0;
+  --color-on-primary: #000000;
+  --color-surface: #000000;
+  --color-on-surface: #e9f7f0;
+  --spacing-unit: 8px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 32px;
+  --rounded-DEFAULT: 6px;
+
+  /* PX AI application theme contract. */
+  --pixel: 1px;
+  --ink: var(--color-on-surface);
+  --paper: var(--color-surface);
+  --bg: var(--color-deep-ocean);
+  --red: var(--color-cellular-pink);
+  --blue: var(--color-primary);
+  --green: var(--color-primary);
+  --yellow: var(--color-primary);
+  --on-red: #000000;
+  --on-blue: #000000;
+  --on-green: #000000;
+  --on-yellow: #000000;
+  --on-accent: #000000;
+  --muted: var(--color-on-surface);
+  --soft-line: var(--color-primary);
+  --border: var(--color-primary);
+  --hover-surface: var(--color-surface);
+  --placeholder: var(--color-on-surface);
+  --font-pixel: 'Quicksand', 'Microsoft YaHei', sans-serif;
+  --font-body: 'Inter', 'Microsoft YaHei', sans-serif;
+  color-scheme: dark;
+}

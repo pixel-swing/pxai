@@ -1,0 +1,51 @@
+/* Generated from designs/68-vintage-analog/DESIGN.md. Do not edit manually. */
+[data-theme='68-vintage-analog'] {
+  --color-cream: #f5e6c8;
+  --color-sepia: #d4a574;
+  --color-teal: #4a7b7c;
+  --color-teal-deep: #3a6162;
+  --color-pink: #e8b4b8;
+  --color-ink: #3d2b1f;
+  --color-ink-soft: #6b5744;
+  --color-paper: #fdf6e6;
+  --color-light-leak-color: #ffc86433;
+  --color-warm-tint: #f5e6c8;
+  --color-background: #f5e6c8;
+  --color-on-background: #3d2b1f;
+  --color-primary: #4a7b7c;
+  --color-on-primary: #ffffff;
+  --color-secondary: #e8b4b8;
+  --color-on-secondary: #3d2b1f;
+  --color-tertiary: #d4a574;
+  --color-on-tertiary: #3d2b1f;
+  --color-surface: #fdf6e6;
+  --color-on-surface: #3d2b1f;
+  --spacing-unit: 8px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 32px;
+  --rounded-radius: 8px;
+  --rounded-DEFAULT: 8px;
+
+  /* PX AI application theme contract. */
+  --pixel: 1px;
+  --ink: var(--color-on-background);
+  --paper: var(--color-surface);
+  --bg: var(--color-background);
+  --red: var(--color-pink);
+  --blue: var(--color-secondary);
+  --green: var(--color-tertiary);
+  --yellow: var(--color-secondary);
+  --on-red: #000000;
+  --on-blue: #000000;
+  --on-green: #000000;
+  --on-yellow: #000000;
+  --on-accent: #ffffff;
+  --muted: var(--color-secondary);
+  --soft-line: var(--color-secondary);
+  --border: var(--color-secondary);
+  --hover-surface: var(--color-surface);
+  --placeholder: var(--color-secondary);
+  --font-pixel: 'Fraunces', 'Microsoft YaHei', sans-serif;
+  --font-body: 'Karla', 'Microsoft YaHei', sans-serif;
+}

@@ -1,0 +1,43 @@
+/* Generated from designs/83-enterprise-saas/DESIGN.md. Do not edit manually. */
+[data-theme='83-enterprise-saas'] {
+  --color-bg: #f8fafc;
+  --color-surface: #ffffff;
+  --color-text: #0f172a;
+  --color-muted: #64748b;
+  --color-primary: #4f46e5;
+  --color-secondary: #7c3aed;
+  --color-success: #10b981;
+  --color-border: #e2e8f0;
+  --color-on-primary: #ffffff;
+  --color-on-surface: #0f172a;
+  --spacing-unit: 8px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 32px;
+  --rounded-radius-card: 16px;
+  --rounded-radius-pill: 999px;
+  --rounded-radius-input: 8px;
+  --rounded-DEFAULT: 16px;
+
+  /* PX AI application theme contract. */
+  --pixel: 1px;
+  --ink: var(--color-on-surface);
+  --paper: var(--color-surface);
+  --bg: var(--color-bg);
+  --red: var(--color-primary);
+  --blue: var(--color-secondary);
+  --green: var(--color-success);
+  --yellow: var(--color-secondary);
+  --on-red: #ffffff;
+  --on-blue: #ffffff;
+  --on-green: #000000;
+  --on-yellow: #ffffff;
+  --on-accent: #ffffff;
+  --muted: var(--color-muted);
+  --soft-line: var(--color-border);
+  --border: var(--color-border);
+  --hover-surface: var(--color-surface);
+  --placeholder: var(--color-muted);
+  --font-pixel: 'Plus Jakarta Sans', 'Microsoft YaHei', sans-serif;
+  --font-body: 'Plus Jakarta Sans', 'Microsoft YaHei', sans-serif;
+}

@@ -1,0 +1,46 @@
+/* Generated from designs/75-flat-mobile/DESIGN.md. Do not edit manually. */
+[data-theme='75-flat-mobile'] {
+  --color-bg: #ffffff;
+  --color-surface: #f3f4f6;
+  --color-fg: #111827;
+  --color-muted: #4b5563;
+  --color-primary: #2563eb;
+  --color-primary-bright: #3b82f6;
+  --color-primary-dark: #1d4ed8;
+  --color-secondary: #047857;
+  --color-secondary-bright: #10b981;
+  --color-accent: #f59e0b;
+  --color-border: #e5e7eb;
+  --color-on-primary: #ffffff;
+  --color-on-surface: #111827;
+  --spacing-unit: 8px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 32px;
+  --rounded-radius-sm: 6px;
+  --rounded-radius-md: 12px;
+  --rounded-radius-pill: 999px;
+  --rounded-DEFAULT: 6px;
+
+  /* PX AI application theme contract. */
+  --pixel: 1px;
+  --ink: var(--color-on-surface);
+  --paper: var(--color-surface);
+  --bg: var(--color-bg);
+  --red: var(--color-primary);
+  --blue: var(--color-secondary);
+  --green: var(--color-primary);
+  --yellow: var(--color-accent);
+  --on-red: #ffffff;
+  --on-blue: #ffffff;
+  --on-green: #ffffff;
+  --on-yellow: #000000;
+  --on-accent: #ffffff;
+  --muted: var(--color-muted);
+  --soft-line: var(--color-border);
+  --border: var(--color-border);
+  --hover-surface: var(--color-surface);
+  --placeholder: var(--color-muted);
+  --font-pixel: 'Inter', 'Microsoft YaHei', sans-serif;
+  --font-body: 'Inter', 'Microsoft YaHei', sans-serif;
+}

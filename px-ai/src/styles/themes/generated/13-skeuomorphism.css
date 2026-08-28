@@ -1,0 +1,53 @@
+/* Generated from designs/13-skeuomorphism/DESIGN.md. Do not edit manually. */
+[data-theme='13-skeuomorphism'] {
+  --color-wood: #8b5a2b;
+  --color-wood-deep: #66391b;
+  --color-leather: #56351d;
+  --color-leather-deep: #472a15;
+  --color-brass: #d9a32f;
+  --color-brass-deep: #9c6f14;
+  --color-silver: #c0c0c0;
+  --color-paper: #f0e6d2;
+  --color-paper-hi: #fbf4e3;
+  --color-ink: #2b1d12;
+  --color-ink-soft: #5a4632;
+  --color-cream: #fbf3e2;
+  --color-background: #f0e6d2;
+  --color-on-background: #2b1d12;
+  --color-primary: #d9a32f;
+  --color-on-primary: #3a2606;
+  --color-secondary: #8b5a2b;
+  --color-on-secondary: #fbf3e2;
+  --color-tertiary: #c0c0c0;
+  --color-on-tertiary: #2a2a2a;
+  --color-surface: #f0e6d2;
+  --color-on-surface: #2b1d12;
+  --spacing-unit: 8px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 32px;
+  --rounded-radius: 12px;
+  --rounded-DEFAULT: 12px;
+
+  /* PX AI application theme contract. */
+  --pixel: 1px;
+  --ink: var(--color-on-background);
+  --paper: var(--color-paper-hi);
+  --bg: var(--color-background);
+  --red: var(--color-tertiary);
+  --blue: var(--color-secondary);
+  --green: var(--color-tertiary);
+  --yellow: var(--color-secondary);
+  --on-red: #000000;
+  --on-blue: #ffffff;
+  --on-green: #000000;
+  --on-yellow: #ffffff;
+  --on-accent: #000000;
+  --muted: var(--color-secondary);
+  --soft-line: var(--color-secondary);
+  --border: var(--color-secondary);
+  --hover-surface: var(--color-surface);
+  --placeholder: var(--color-secondary);
+  --font-pixel: 'Playfair Display', 'Microsoft YaHei', sans-serif;
+  --font-body: 'Inter', 'Microsoft YaHei', sans-serif;
+}

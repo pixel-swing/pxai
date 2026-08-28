@@ -1,0 +1,48 @@
+/* Generated from designs/84-sketch-handdrawn/DESIGN.md. Do not edit manually. */
+[data-theme='84-sketch-handdrawn'] {
+  --color-bg: #fdfbf7;
+  --color-old-paper: #e5e0d8;
+  --color-card-bg: #ffffff;
+  --color-text: #2d2d2d;
+  --color-accent-red: #ff4d4d;
+  --color-red-ink: #c93030;
+  --color-accent-blue: #2d5da1;
+  --color-postit: #fff9c4;
+  --color-background: #e5e0d8;
+  --color-on-background: #2d2d2d;
+  --color-primary: #fff9c4;
+  --color-on-primary: #2d2d2d;
+  --color-secondary: #ff4d4d;
+  --color-on-secondary: #ffffff;
+  --color-tertiary: #2d5da1;
+  --color-on-tertiary: #ffffff;
+  --color-surface: #ffffff;
+  --color-on-surface: #2d2d2d;
+  --spacing-unit: 8px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 32px;
+  --rounded-DEFAULT: 0px;
+
+  /* PX AI application theme contract. */
+  --pixel: 1px;
+  --ink: var(--color-on-background);
+  --paper: var(--color-surface);
+  --bg: var(--color-background);
+  --red: var(--color-accent-red);
+  --blue: var(--color-accent-blue);
+  --green: var(--color-tertiary);
+  --yellow: var(--color-accent-red);
+  --on-red: #000000;
+  --on-blue: #ffffff;
+  --on-green: #ffffff;
+  --on-yellow: #000000;
+  --on-accent: #000000;
+  --muted: var(--color-secondary);
+  --soft-line: var(--color-secondary);
+  --border: var(--color-secondary);
+  --hover-surface: var(--color-surface);
+  --placeholder: var(--color-secondary);
+  --font-pixel: 'Kalam', 'Microsoft YaHei', sans-serif;
+  --font-body: 'Patrick Hand', 'Microsoft YaHei', sans-serif;
+}

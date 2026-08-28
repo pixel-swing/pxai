@@ -1,0 +1,44 @@
+/* Generated from designs/02-neumorphism/DESIGN.md. Do not edit manually. */
+[data-theme='02-neumorphism'] {
+  --color-color-light: #f5f5f5;
+  --color-bg: #e6ecf3;
+  --color-color-primary: #c8e0f4;
+  --color-color-pink: #f5e0e8;
+  --color-ink: #2c3549;
+  --color-text: #3d4a5c;
+  --color-muted: #5b6a80;
+  --color-accent: #33608d;
+  --color-primary: #33608d;
+  --color-on-primary: #ffffff;
+  --color-surface: #e6ecf3;
+  --color-on-surface: #2c3549;
+  --spacing-unit: 8px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 32px;
+  --rounded-radius: 14px;
+  --rounded-radius-lg: 22px;
+  --rounded-DEFAULT: 14px;
+
+  /* PX AI application theme contract. */
+  --pixel: 1px;
+  --ink: var(--color-on-surface);
+  --paper: var(--color-color-pink);
+  --bg: var(--color-bg);
+  --red: var(--color-color-pink);
+  --blue: var(--color-primary);
+  --green: var(--color-primary);
+  --yellow: var(--color-accent);
+  --on-red: #000000;
+  --on-blue: #ffffff;
+  --on-green: #ffffff;
+  --on-yellow: #ffffff;
+  --on-accent: #ffffff;
+  --muted: var(--color-muted);
+  --soft-line: var(--color-primary);
+  --border: var(--color-primary);
+  --hover-surface: var(--color-surface);
+  --placeholder: var(--color-muted);
+  --font-pixel: 'Nunito', 'Microsoft YaHei', sans-serif;
+  --font-body: 'Nunito', 'Microsoft YaHei', sans-serif;
+}

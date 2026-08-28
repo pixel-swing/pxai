@@ -1,0 +1,48 @@
+/* Generated from designs/05-3d-hyperrealism/DESIGN.md. Do not edit manually. */
+[data-theme='05-3d-hyperrealism'] {
+  --color-navy: #001f3f;
+  --color-navy-deep: #000e1f;
+  --color-green: #228b22;
+  --color-burgundy: #800020;
+  --color-gold: #ffd700;
+  --color-silver: #c0c0c0;
+  --color-text-color: #efe7d7;
+  --color-text-dim: #efe7d7c7;
+  --color-background: #000e1f;
+  --color-on-background: #efe7d7;
+  --color-primary: #ffd700;
+  --color-on-primary: #241a00;
+  --color-secondary: #c0c0c0;
+  --color-on-secondary: #101b29;
+  --color-surface: #062a4c;
+  --color-on-surface: #efe7d7;
+  --spacing-unit: 8px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 32px;
+  --rounded-radius: 16px;
+  --rounded-DEFAULT: 16px;
+
+  /* PX AI application theme contract. */
+  --pixel: 1px;
+  --ink: var(--color-text-color);
+  --paper: var(--color-surface);
+  --bg: var(--color-background);
+  --red: var(--color-primary);
+  --blue: var(--color-secondary);
+  --green: var(--color-green);
+  --yellow: var(--color-gold);
+  --on-red: #000000;
+  --on-blue: #000000;
+  --on-green: #000000;
+  --on-yellow: #000000;
+  --on-accent: #000000;
+  --muted: var(--color-secondary);
+  --soft-line: var(--color-secondary);
+  --border: var(--color-secondary);
+  --hover-surface: var(--color-surface);
+  --placeholder: var(--color-secondary);
+  --font-pixel: 'Playfair Display', 'Microsoft YaHei', sans-serif;
+  --font-body: 'Inter', 'Microsoft YaHei', sans-serif;
+  color-scheme: dark;
+}

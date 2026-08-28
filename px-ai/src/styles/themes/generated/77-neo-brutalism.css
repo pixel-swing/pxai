@@ -1,0 +1,42 @@
+/* Generated from designs/77-neo-brutalism/DESIGN.md. Do not edit manually. */
+[data-theme='77-neo-brutalism'] {
+  --color-bg: #fffdf5;
+  --color-ink: #000000;
+  --color-red: #ff6b6b;
+  --color-yellow: #ffd93d;
+  --color-violet: #c4b5fd;
+  --color-white: #ffffff;
+  --color-primary: #000000;
+  --color-on-primary: #ffffff;
+  --color-surface: #fffdf5;
+  --color-on-surface: #000000;
+  --spacing-unit: 8px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 32px;
+  --rounded-radius: 0px;
+  --rounded-radius-pill: 999px;
+  --rounded-DEFAULT: 0px;
+
+  /* PX AI application theme contract. */
+  --pixel: 1px;
+  --ink: var(--color-on-surface);
+  --paper: var(--color-white);
+  --bg: var(--color-bg);
+  --red: var(--color-red);
+  --blue: var(--color-primary);
+  --green: var(--color-primary);
+  --yellow: var(--color-yellow);
+  --on-red: #000000;
+  --on-blue: #ffffff;
+  --on-green: #ffffff;
+  --on-yellow: #000000;
+  --on-accent: #ffffff;
+  --muted: var(--color-on-surface);
+  --soft-line: var(--color-primary);
+  --border: var(--color-primary);
+  --hover-surface: var(--color-surface);
+  --placeholder: var(--color-on-surface);
+  --font-pixel: 'Space Grotesk', 'Microsoft YaHei', sans-serif;
+  --font-body: 'Space Grotesk', 'Microsoft YaHei', sans-serif;
+}

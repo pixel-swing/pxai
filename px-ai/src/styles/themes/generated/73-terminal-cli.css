@@ -1,0 +1,49 @@
+/* Generated from designs/73-terminal-cli/DESIGN.md. Do not edit manually. */
+[data-theme='73-terminal-cli'] {
+  --color-bg: #050505;
+  --color-fg-primary: #33ff00;
+  --color-fg-amber: #ffb000;
+  --color-fg-muted: #1a3d1a;
+  --color-fg-dim: #9be58a;
+  --color-fg-error: #ff3333;
+  --color-border: #33ff00;
+  --color-background: #050505;
+  --color-on-background: #33ff00;
+  --color-primary: #33ff00;
+  --color-on-primary: #000000;
+  --color-secondary: #ffb000;
+  --color-on-secondary: #050505;
+  --color-tertiary: #ff3333;
+  --color-on-tertiary: #050505;
+  --color-surface: #050505;
+  --color-on-surface: #33ff00;
+  --spacing-unit: 8px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 32px;
+  --rounded-radius: 0px;
+  --rounded-DEFAULT: 0px;
+
+  /* PX AI application theme contract. */
+  --pixel: 1px;
+  --ink: var(--color-on-background);
+  --paper: var(--color-on-primary);
+  --bg: var(--color-background);
+  --red: var(--color-fg-error);
+  --blue: var(--color-secondary);
+  --green: var(--color-tertiary);
+  --yellow: var(--color-fg-amber);
+  --on-red: #000000;
+  --on-blue: #000000;
+  --on-green: #000000;
+  --on-yellow: #000000;
+  --on-accent: #000000;
+  --muted: var(--color-fg-muted);
+  --soft-line: var(--color-border);
+  --border: var(--color-border);
+  --hover-surface: var(--color-surface);
+  --placeholder: var(--color-fg-muted);
+  --font-pixel: 'JetBrains Mono', 'Microsoft YaHei', sans-serif;
+  --font-body: 'JetBrains Mono', 'Microsoft YaHei', sans-serif;
+  color-scheme: dark;
+}

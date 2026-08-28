@@ -1,0 +1,88 @@
+# Design Systems
+
+Generated from 84 HTML style references in `style-templates/pages`.
+
+- [01 极简主义与瑞士风格](./01-minimalism-swiss/DESIGN.md) — `01-minimalism-swiss`
+- [02 新拟态](./02-neumorphism/DESIGN.md) — `02-neumorphism`
+- [03 玻璃拟态](./03-glassmorphism/DESIGN.md) — `03-glassmorphism`
+- [04 野兽派](./04-brutalism/DESIGN.md) — `04-brutalism`
+- [05 3D 与超写实](./05-3d-hyperrealism/DESIGN.md) — `05-3d-hyperrealism`
+- [06 高饱和分块](./06-vibrant-block/DESIGN.md) — `06-vibrant-block`
+- [07 深色模式（OLED）](./07-dark-mode-oled/DESIGN.md) — `07-dark-mode-oled`
+- [08 无障碍与伦理设计](./08-accessible-ethical/DESIGN.md) — `08-accessible-ethical`
+- [09 黏土拟态](./09-claymorphism/DESIGN.md) — `09-claymorphism`
+- [10 极光 UI](./10-aurora-ui/DESIGN.md) — `10-aurora-ui`
+- [11 复古未来主义](./11-retro-futurism/DESIGN.md) — `11-retro-futurism`
+- [12 扁平化设计](./12-flat-design/DESIGN.md) — `12-flat-design`
+- [13 拟物化](./13-skeuomorphism/DESIGN.md) — `13-skeuomorphism`
+- [14 液态玻璃](./14-liquid-glass/DESIGN.md) — `14-liquid-glass`
+- [15 动效驱动](./15-motion-driven/DESIGN.md) — `15-motion-driven`
+- [16 微交互](./16-micro-interactions/DESIGN.md) — `16-micro-interactions`
+- [17 包容性设计](./17-inclusive-design/DESIGN.md) — `17-inclusive-design`
+- [18 零界面](./18-zero-interface/DESIGN.md) — `18-zero-interface`
+- [19 进化柔性 UI](./19-soft-ui-evolution/DESIGN.md) — `19-soft-ui-evolution`
+- [20 主视觉优先](./20-hero-centric/DESIGN.md) — `20-hero-centric`
+- [21 转化优化](./21-conversion-optimized/DESIGN.md) — `21-conversion-optimized`
+- [22 功能富展示](./22-feature-rich/DESIGN.md) — `22-feature-rich`
+- [23 极简直达](./23-minimal-direct/DESIGN.md) — `23-minimal-direct`
+- [24 社会认同导向](./24-social-proof/DESIGN.md) — `24-social-proof`
+- [25 交互式产品演示](./25-interactive-demo/DESIGN.md) — `25-interactive-demo`
+- [26 信任与权威](./26-trust-authority/DESIGN.md) — `26-trust-authority`
+- [27 叙事驱动](./27-storytelling/DESIGN.md) — `27-storytelling`
+- [28 高密度数据看板](./28-data-dense-dashboard/DESIGN.md) — `28-data-dense-dashboard`
+- [29 热力图风格](./29-heatmap/DESIGN.md) — `29-heatmap`
+- [30 高管看板](./30-executive-dashboard/DESIGN.md) — `30-executive-dashboard`
+- [31 实时监控](./31-realtime-monitoring/DESIGN.md) — `31-realtime-monitoring`
+- [32 下钻分析](./32-drilldown-analytics/DESIGN.md) — `32-drilldown-analytics`
+- [33 对比分析看板](./33-comparative-analysis/DESIGN.md) — `33-comparative-analysis`
+- [34 预测分析](./34-predictive-analytics/DESIGN.md) — `34-predictive-analytics`
+- [35 用户行为分析](./35-user-behavior/DESIGN.md) — `35-user-behavior`
+- [36 财务看板](./36-financial-dashboard/DESIGN.md) — `36-financial-dashboard`
+- [37 销售智能看板](./37-sales-intelligence/DESIGN.md) — `37-sales-intelligence`
+- [38 新野兽派](./38-neubrutalism/DESIGN.md) — `38-neubrutalism`
+- [39 便当盒网格](./39-bento-box-grid/DESIGN.md) — `39-bento-box-grid`
+- [40 Y2K 千禧美学](./40-y2k/DESIGN.md) — `40-y2k`
+- [41 赛博朋克 UI](./41-cyberpunk-ui/DESIGN.md) — `41-cyberpunk-ui`
+- [42 有机亲生物](./42-organic-biophilic/DESIGN.md) — `42-organic-biophilic`
+- [43 AI 原生 UI](./43-ai-native/DESIGN.md) — `43-ai-native`
+- [44 孟菲斯设计](./44-memphis/DESIGN.md) — `44-memphis`
+- [45 蒸汽波](./45-vaporwave/DESIGN.md) — `45-vaporwave`
+- [46 维度分层](./46-dimensional-layering/DESIGN.md) — `46-dimensional-layering`
+- [47 夸张极简](./47-exaggerated-minimalism/DESIGN.md) — `47-exaggerated-minimalism`
+- [48 动态排版](./48-kinetic-typography/DESIGN.md) — `48-kinetic-typography`
+- [49 视差叙事](./49-parallax-storytelling/DESIGN.md) — `49-parallax-storytelling`
+- [50 瑞士现代主义 2.0](./50-swiss-modernism-2/DESIGN.md) — `50-swiss-modernism-2`
+- [51 HUD 科幻界面](./51-hud-scifi-fui/DESIGN.md) — `51-hud-scifi-fui`
+- [52 像素艺术](./52-pixel-art/DESIGN.md) — `52-pixel-art`
+- [53 便当网格](./53-bento-grids/DESIGN.md) — `53-bento-grids`
+- [55 空间 UI（VisionOS）](./55-spatial-ui-visionos/DESIGN.md) — `55-spatial-ui-visionos`
+- [56 电子墨水/纸感](./56-eink-paper/DESIGN.md) — `56-eink-paper`
+- [57 Z 世代混沌/极繁主义](./57-genz-chaos/DESIGN.md) — `57-genz-chaos`
+- [58 仿生/有机 2.0](./58-biomimetic-2/DESIGN.md) — `58-biomimetic-2`
+- [59 反精致/生涩美学](./59-anti-polish-raw/DESIGN.md) — `59-anti-polish-raw`
+- [60 触感数字/可形变 UI](./60-tactile-deformable/DESIGN.md) — `60-tactile-deformable`
+- [61 自然提纯](./61-nature-distilled/DESIGN.md) — `61-nature-distilled`
+- [62 交互光标设计](./62-interactive-cursor/DESIGN.md) — `62-interactive-cursor`
+- [63 语音优先多模态](./63-voice-first/DESIGN.md) — `63-voice-first`
+- [64 3D 产品预览](./64-3d-product-preview/DESIGN.md) — `64-3d-product-preview`
+- [65 网格渐变/极光进化](./65-gradient-mesh/DESIGN.md) — `65-gradient-mesh`
+- [66 编辑网格/杂志](./66-editorial-magazine/DESIGN.md) — `66-editorial-magazine`
+- [67 色差/RGB 分离](./67-chromatic-aberration/DESIGN.md) — `67-chromatic-aberration`
+- [68 复古胶片](./68-vintage-analog/DESIGN.md) — `68-vintage-analog`
+- [69 包豪斯](./69-bauhaus/DESIGN.md) — `69-bauhaus`
+- [70 极简黑白](./70-minimalist-monochrome/DESIGN.md) — `70-minimalist-monochrome`
+- [71 现代深色（影院移动端）](./71-modern-dark-cinema/DESIGN.md) — `71-modern-dark-cinema`
+- [72 SaaS 移动端（高科技精品）](./72-saas-mobile/DESIGN.md) — `72-saas-mobile`
+- [73 终端命令行（移动端）](./73-terminal-cli/DESIGN.md) — `73-terminal-cli`
+- [74 动态野兽派（移动端）](./74-kinetic-brutalism/DESIGN.md) — `74-kinetic-brutalism`
+- [75 扁平移动端（触控优先）](./75-flat-mobile/DESIGN.md) — `75-flat-mobile`
+- [76 Material You（MD3 移动端）](./76-material-you/DESIGN.md) — `76-material-you`
+- [77 新野兽派（移动端）](./77-neo-brutalism/DESIGN.md) — `77-neo-brutalism`
+- [78 粗体排版（移动海报）](./78-bold-typography/DESIGN.md) — `78-bold-typography`
+- [79 学院派（移动端）](./79-academia/DESIGN.md) — `79-academia`
+- [80 赛博朋克移动 HUD](./80-cyberpunk-hud/DESIGN.md) — `80-cyberpunk-hud`
+- [81 比特币 DeFi（移动端）](./81-bitcoin-defi/DESIGN.md) — `81-bitcoin-defi`
+- [82 黏土拟态（移动端）](./82-claymorphism-mobile/DESIGN.md) — `82-claymorphism-mobile`
+- [83 企业级 SaaS（移动端）](./83-enterprise-saas/DESIGN.md) — `83-enterprise-saas`
+- [84 手绘草图（移动端）](./84-sketch-handdrawn/DESIGN.md) — `84-sketch-handdrawn`
+- [85 新拟态（移动端）](./85-neumorphism-mobile/DESIGN.md) — `85-neumorphism-mobile`

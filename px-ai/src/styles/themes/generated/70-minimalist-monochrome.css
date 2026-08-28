@@ -1,0 +1,41 @@
+/* Generated from designs/70-minimalist-monochrome/DESIGN.md. Do not edit manually. */
+[data-theme='70-minimalist-monochrome'] {
+  --color-color-bg: #ffffff;
+  --color-color-fg: #000000;
+  --color-color-muted: #f5f5f5;
+  --color-color-muted-fg: #525252;
+  --color-color-border: #000000;
+  --color-color-border-light: #e5e5e5;
+  --color-primary: #000000;
+  --color-on-primary: #ffffff;
+  --color-surface: #ffffff;
+  --color-on-surface: #000000;
+  --spacing-unit: 8px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 32px;
+  --rounded-radius: 0px;
+  --rounded-DEFAULT: 0px;
+
+  /* PX AI application theme contract. */
+  --pixel: 1px;
+  --ink: var(--color-on-surface);
+  --paper: var(--color-color-muted);
+  --bg: var(--color-color-bg);
+  --red: var(--color-primary);
+  --blue: var(--color-primary);
+  --green: var(--color-primary);
+  --yellow: var(--color-primary);
+  --on-red: #ffffff;
+  --on-blue: #ffffff;
+  --on-green: #ffffff;
+  --on-yellow: #ffffff;
+  --on-accent: #ffffff;
+  --muted: var(--color-color-muted);
+  --soft-line: var(--color-color-border);
+  --border: var(--color-color-border);
+  --hover-surface: var(--color-surface);
+  --placeholder: var(--color-color-muted);
+  --font-pixel: 'Playfair Display', 'Microsoft YaHei', sans-serif;
+  --font-body: 'Source Serif 4', 'Microsoft YaHei', sans-serif;
+}

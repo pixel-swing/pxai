@@ -1,0 +1,45 @@
+/* Generated from designs/32-drilldown-analytics/DESIGN.md. Do not edit manually. */
+[data-theme='32-drilldown-analytics'] {
+  --color-bg: #f4f6fa;
+  --color-surface: #ffffff;
+  --color-line: #dde4ee;
+  --color-ink: #1e293b;
+  --color-muted: #55657a;
+  --color-primary: #1d4ed8;
+  --color-primary-deep: #1e40af;
+  --color-level-1: #1d4ed8;
+  --color-level-2: #0e7490;
+  --color-level-3: #7c3aed;
+  --color-up: #15803d;
+  --color-down: #b91c1c;
+  --color-on-primary: #ffffff;
+  --color-on-surface: #1e293b;
+  --spacing-unit: 8px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 32px;
+  --rounded-radius: 12px;
+  --rounded-DEFAULT: 12px;
+
+  /* PX AI application theme contract. */
+  --pixel: 1px;
+  --ink: var(--color-on-surface);
+  --paper: var(--color-surface);
+  --bg: var(--color-bg);
+  --red: var(--color-primary);
+  --blue: var(--color-primary);
+  --green: var(--color-primary);
+  --yellow: var(--color-primary);
+  --on-red: #ffffff;
+  --on-blue: #ffffff;
+  --on-green: #ffffff;
+  --on-yellow: #ffffff;
+  --on-accent: #ffffff;
+  --muted: var(--color-muted);
+  --soft-line: var(--color-line);
+  --border: var(--color-line);
+  --hover-surface: var(--color-surface);
+  --placeholder: var(--color-muted);
+  --font-pixel: 'Inter', 'Microsoft YaHei', sans-serif;
+  --font-body: 'JetBrains Mono', 'Microsoft YaHei', sans-serif;
+}

@@ -1,0 +1,41 @@
+/* Generated from designs/23-minimal-direct/DESIGN.md. Do not edit manually. */
+[data-theme='23-minimal-direct'] {
+  --color-color-text: #1a1a1a;
+  --color-color-muted: #4a4a4a;
+  --color-color-bg: #ffffff;
+  --color-accent: #0b5fff;
+  --color-accent-deep: #0949c6;
+  --color-line: #e5e5e5;
+  --color-primary: #0b5fff;
+  --color-on-primary: #ffffff;
+  --color-surface: #ffffff;
+  --color-on-surface: #1a1a1a;
+  --spacing-unit: 8px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 32px;
+  --rounded-radius: 6px;
+  --rounded-DEFAULT: 6px;
+
+  /* PX AI application theme contract. */
+  --pixel: 1px;
+  --ink: var(--color-on-surface);
+  --paper: var(--color-line);
+  --bg: var(--color-color-bg);
+  --red: var(--color-primary);
+  --blue: var(--color-primary);
+  --green: var(--color-primary);
+  --yellow: var(--color-accent);
+  --on-red: #ffffff;
+  --on-blue: #ffffff;
+  --on-green: #ffffff;
+  --on-yellow: #ffffff;
+  --on-accent: #ffffff;
+  --muted: var(--color-color-muted);
+  --soft-line: var(--color-line);
+  --border: var(--color-line);
+  --hover-surface: var(--color-surface);
+  --placeholder: var(--color-color-muted);
+  --font-pixel: 'Inter', 'Microsoft YaHei', sans-serif;
+  --font-body: ui-monospace, 'Microsoft YaHei', sans-serif;
+}

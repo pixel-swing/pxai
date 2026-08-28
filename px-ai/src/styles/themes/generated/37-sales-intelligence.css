@@ -1,0 +1,52 @@
+/* Generated from designs/37-sales-intelligence/DESIGN.md. Do not edit manually. */
+[data-theme='37-sales-intelligence'] {
+  --color-won: #16a34a;
+  --color-won-ink: #15803d;
+  --color-lost: #dc2626;
+  --color-lost-ink: #b91c1c;
+  --color-progress: #2563eb;
+  --color-blocked: #ea580c;
+  --color-blocked-ink: #c2410c;
+  --color-gauge-track: #e5e7eb;
+  --color-rank-1-color: #ffd700;
+  --color-rank-2-color: #c0c0c0;
+  --color-rank-3-color: #cd7f32;
+  --color-bg: #f8fafc;
+  --color-panel: #ffffff;
+  --color-line: #e2e8f0;
+  --color-ink: #0f172a;
+  --color-ink-2: #475569;
+  --color-ink-3: #64748b;
+  --color-primary: #0f172a;
+  --color-on-primary: #ffffff;
+  --color-surface: #f8fafc;
+  --color-on-surface: #0f172a;
+  --spacing-unit: 8px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 32px;
+  --rounded-radius: 14px;
+  --rounded-DEFAULT: 14px;
+
+  /* PX AI application theme contract. */
+  --pixel: 1px;
+  --ink: var(--color-on-surface);
+  --paper: var(--color-panel);
+  --bg: var(--color-bg);
+  --red: var(--color-primary);
+  --blue: var(--color-primary);
+  --green: var(--color-primary);
+  --yellow: var(--color-primary);
+  --on-red: #ffffff;
+  --on-blue: #ffffff;
+  --on-green: #ffffff;
+  --on-yellow: #ffffff;
+  --on-accent: #ffffff;
+  --muted: var(--color-on-surface);
+  --soft-line: var(--color-line);
+  --border: var(--color-line);
+  --hover-surface: var(--color-surface);
+  --placeholder: var(--color-on-surface);
+  --font-pixel: 'Plus Jakarta Sans', 'Microsoft YaHei', sans-serif;
+  --font-body: 'Inter', 'Microsoft YaHei', sans-serif;
+}

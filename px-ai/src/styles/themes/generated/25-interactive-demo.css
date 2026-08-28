@@ -1,0 +1,44 @@
+/* Generated from designs/25-interactive-demo/DESIGN.md. Do not edit manually. */
+[data-theme='25-interactive-demo'] {
+  --color-brand: #4f46e5;
+  --color-brand-deep: #4338ca;
+  --color-interface: #0ea5e9;
+  --color-highlight: #f59e0b;
+  --color-ink: #111827;
+  --color-muted: #4b5563;
+  --color-bg: #f7f7fb;
+  --color-surface: #ffffff;
+  --color-line: #e5e7eb;
+  --color-overlay-bg: #000000b3;
+  --color-primary: #4f46e5;
+  --color-on-primary: #ffffff;
+  --color-on-surface: #111827;
+  --spacing-unit: 8px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 32px;
+  --rounded-radius: 16px;
+  --rounded-DEFAULT: 16px;
+
+  /* PX AI application theme contract. */
+  --pixel: 1px;
+  --ink: var(--color-on-surface);
+  --paper: var(--color-surface);
+  --bg: var(--color-bg);
+  --red: var(--color-primary);
+  --blue: var(--color-primary);
+  --green: var(--color-primary);
+  --yellow: var(--color-primary);
+  --on-red: #ffffff;
+  --on-blue: #ffffff;
+  --on-green: #ffffff;
+  --on-yellow: #ffffff;
+  --on-accent: #ffffff;
+  --muted: var(--color-muted);
+  --soft-line: var(--color-line);
+  --border: var(--color-line);
+  --hover-surface: var(--color-surface);
+  --placeholder: var(--color-muted);
+  --font-pixel: 'Space Grotesk', 'Microsoft YaHei', sans-serif;
+  --font-body: 'Inter', 'Microsoft YaHei', sans-serif;
+}

@@ -1,0 +1,44 @@
+/* Generated from designs/71-modern-dark-cinema/DESIGN.md. Do not edit manually. */
+[data-theme='71-modern-dark-cinema'] {
+  --color-bg-deep: #020203;
+  --color-bg-base: #050506;
+  --color-bg-elevated: #0a0a0c;
+  --color-surface: #ffffff0d;
+  --color-foreground: #ededef;
+  --color-foreground-muted: #8a8f98;
+  --color-accent: #5e6ad2;
+  --color-accent-glow: #5e6ad233;
+  --color-border: #ffffff14;
+  --color-primary: #5e6ad2;
+  --color-on-primary: #ffffff;
+  --color-on-surface: #ededef;
+  --spacing-unit: 8px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 32px;
+  --rounded-radius: 16px;
+  --rounded-DEFAULT: 16px;
+
+  /* PX AI application theme contract. */
+  --pixel: 1px;
+  --ink: var(--color-foreground);
+  --paper: var(--color-surface);
+  --bg: var(--color-bg-deep);
+  --red: var(--color-primary);
+  --blue: var(--color-primary);
+  --green: var(--color-primary);
+  --yellow: var(--color-accent);
+  --on-red: #ffffff;
+  --on-blue: #ffffff;
+  --on-green: #ffffff;
+  --on-yellow: #ffffff;
+  --on-accent: #ffffff;
+  --muted: var(--color-foreground-muted);
+  --soft-line: var(--color-border);
+  --border: var(--color-border);
+  --hover-surface: var(--color-surface);
+  --placeholder: var(--color-foreground-muted);
+  --font-pixel: 'Inter', 'Microsoft YaHei', sans-serif;
+  --font-body: 'Inter', 'Microsoft YaHei', sans-serif;
+  color-scheme: dark;
+}

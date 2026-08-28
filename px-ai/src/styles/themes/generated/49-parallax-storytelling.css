@@ -1,0 +1,48 @@
+/* Generated from designs/49-parallax-storytelling/DESIGN.md. Do not edit manually. */
+[data-theme='49-parallax-storytelling'] {
+  --color-sky-deep: #0b1b33;
+  --color-sky-mid: #24406b;
+  --color-dusk: #ff8c5a;
+  --color-gold: #f5c97b;
+  --color-mist: #f6f1e7;
+  --color-paper: #fbf8f2;
+  --color-ink: #1c2a42;
+  --color-ink-soft: #445470;
+  --color-background: #fbf8f2;
+  --color-on-background: #1c2a42;
+  --color-primary: #ff8c5a;
+  --color-on-primary: #331608;
+  --color-secondary: #f5c97b;
+  --color-on-secondary: #331608;
+  --color-tertiary: #24406b;
+  --color-on-tertiary: #f6f1e7;
+  --color-surface: #fbf8f2;
+  --color-on-surface: #1c2a42;
+  --spacing-unit: 8px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 32px;
+  --rounded-DEFAULT: 4px;
+
+  /* PX AI application theme contract. */
+  --pixel: 1px;
+  --ink: var(--color-on-background);
+  --paper: var(--color-mist);
+  --bg: var(--color-background);
+  --red: var(--color-tertiary);
+  --blue: var(--color-secondary);
+  --green: var(--color-tertiary);
+  --yellow: var(--color-gold);
+  --on-red: #ffffff;
+  --on-blue: #000000;
+  --on-green: #ffffff;
+  --on-yellow: #000000;
+  --on-accent: #000000;
+  --muted: var(--color-secondary);
+  --soft-line: var(--color-secondary);
+  --border: var(--color-secondary);
+  --hover-surface: var(--color-surface);
+  --placeholder: var(--color-secondary);
+  --font-pixel: 'Noto Serif SC', 'Microsoft YaHei', sans-serif;
+  --font-body: 'Noto Serif SC', 'Microsoft YaHei', sans-serif;
+}

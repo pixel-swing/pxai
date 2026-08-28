@@ -1,0 +1,45 @@
+/* Generated from designs/45-vaporwave/DESIGN.md. Do not edit manually. */
+[data-theme='45-vaporwave'] {
+  --color-vapor-pink: #ff71ce;
+  --color-vapor-cyan: #01cdfe;
+  --color-vapor-mint: #05ffa1;
+  --color-vapor-purple: #b967ff;
+  --color-bg-deep: #150b33;
+  --color-bg-panel: #ffffff0d;
+  --color-ink: #f2e9ff;
+  --color-ink-dim: #c9b8e8;
+  --color-grid-color: #ffffff1a;
+  --color-line: #b967ff59;
+  --color-primary: #f2e9ff;
+  --color-on-primary: #000000;
+  --color-surface: #150b33;
+  --color-on-surface: #f2e9ff;
+  --spacing-unit: 8px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 32px;
+  --rounded-DEFAULT: 6px;
+
+  /* PX AI application theme contract. */
+  --pixel: 1px;
+  --ink: var(--color-on-surface);
+  --paper: var(--color-bg-panel);
+  --bg: var(--color-bg-deep);
+  --red: var(--color-vapor-pink);
+  --blue: var(--color-vapor-cyan);
+  --green: var(--color-vapor-mint);
+  --yellow: var(--color-vapor-purple);
+  --on-red: #000000;
+  --on-blue: #000000;
+  --on-green: #000000;
+  --on-yellow: #000000;
+  --on-accent: #000000;
+  --muted: var(--color-on-surface);
+  --soft-line: var(--color-line);
+  --border: var(--color-line);
+  --hover-surface: var(--color-surface);
+  --placeholder: var(--color-on-surface);
+  --font-pixel: 'Audiowide', 'Microsoft YaHei', sans-serif;
+  --font-body: 'Exo 2', 'Microsoft YaHei', sans-serif;
+  color-scheme: dark;
+}

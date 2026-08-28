@@ -1,0 +1,51 @@
+/* Generated from designs/35-user-behavior/DESIGN.md. Do not edit manually. */
+[data-theme='35-user-behavior'] {
+  --color-retention-line-color: #3b82f6;
+  --color-engage-1: #dbeafe;
+  --color-engage-2: #93c5fd;
+  --color-engage-3: #60a5fa;
+  --color-engage-4: #3b82f6;
+  --color-engage-5: #1d4ed8;
+  --color-success: #22c55e;
+  --color-success-ink: #15803d;
+  --color-warn: #ef4444;
+  --color-warn-ink: #b91c1c;
+  --color-bg: #f8fafc;
+  --color-panel: #ffffff;
+  --color-line: #e2e8f0;
+  --color-ink: #0f172a;
+  --color-ink-2: #475569;
+  --color-ink-3: #64748b;
+  --color-primary: #0f172a;
+  --color-on-primary: #ffffff;
+  --color-surface: #f8fafc;
+  --color-on-surface: #0f172a;
+  --spacing-unit: 8px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 32px;
+  --rounded-radius: 14px;
+  --rounded-DEFAULT: 14px;
+
+  /* PX AI application theme contract. */
+  --pixel: 1px;
+  --ink: var(--color-on-surface);
+  --paper: var(--color-panel);
+  --bg: var(--color-bg);
+  --red: var(--color-primary);
+  --blue: var(--color-primary);
+  --green: var(--color-success);
+  --yellow: var(--color-primary);
+  --on-red: #ffffff;
+  --on-blue: #ffffff;
+  --on-green: #000000;
+  --on-yellow: #ffffff;
+  --on-accent: #ffffff;
+  --muted: var(--color-on-surface);
+  --soft-line: var(--color-line);
+  --border: var(--color-line);
+  --hover-surface: var(--color-surface);
+  --placeholder: var(--color-on-surface);
+  --font-pixel: 'Manrope', 'Microsoft YaHei', sans-serif;
+  --font-body: 'Inter', 'Microsoft YaHei', sans-serif;
+}

@@ -1,0 +1,49 @@
+/* Generated from designs/22-feature-rich/DESIGN.md. Do not edit manually. */
+[data-theme='22-feature-rich'] {
+  --color-brand: #2563eb;
+  --color-brand-deep: #1d4ed8;
+  --color-feature: #7c3aed;
+  --color-benefit: #047857;
+  --color-benefit-bg: #ecfdf5;
+  --color-problem: #c2410c;
+  --color-problem-bg: #fff7ed;
+  --color-ink: #0f172a;
+  --color-muted: #475569;
+  --color-line: #e2e8f0;
+  --color-bg: #ffffff;
+  --color-bg-alt: #f1f5f9;
+  --color-primary: #2563eb;
+  --color-on-primary: #ffffff;
+  --color-surface: #ffffff;
+  --color-on-surface: #0f172a;
+  --spacing-card-padding: 2rem;
+  --spacing-grid-gap: 2rem;
+  --spacing-section-padding: 4rem;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 32px;
+  --rounded-card-radius: 12px;
+  --rounded-DEFAULT: 12px;
+
+  /* PX AI application theme contract. */
+  --pixel: 1px;
+  --ink: var(--color-on-surface);
+  --paper: var(--color-benefit-bg);
+  --bg: var(--color-bg);
+  --red: var(--color-primary);
+  --blue: var(--color-primary);
+  --green: var(--color-primary);
+  --yellow: var(--color-primary);
+  --on-red: #ffffff;
+  --on-blue: #ffffff;
+  --on-green: #ffffff;
+  --on-yellow: #ffffff;
+  --on-accent: #ffffff;
+  --muted: var(--color-muted);
+  --soft-line: var(--color-line);
+  --border: var(--color-line);
+  --hover-surface: var(--color-surface);
+  --placeholder: var(--color-muted);
+  --font-pixel: 'Space Grotesk', 'Microsoft YaHei', sans-serif;
+  --font-body: 'Space Grotesk', 'Microsoft YaHei', sans-serif;
+}

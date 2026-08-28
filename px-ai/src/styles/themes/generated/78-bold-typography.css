@@ -1,0 +1,44 @@
+/* Generated from designs/78-bold-typography/DESIGN.md. Do not edit manually. */
+[data-theme='78-bold-typography'] {
+  --color-bg: #0a0a0a;
+  --color-fg: #fafafa;
+  --color-muted: #1a1a1a;
+  --color-muted-fg: #a3a3a3;
+  --color-muted-raw: #737373;
+  --color-accent: #ff3d00;
+  --color-accent-fg: #0a0a0a;
+  --color-border: #262626;
+  --color-primary: #ff3d00;
+  --color-on-primary: #ffffff;
+  --color-surface: #0a0a0a;
+  --color-on-surface: #fafafa;
+  --spacing-pad: 24px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 32px;
+  --rounded-radius: 0px;
+  --rounded-DEFAULT: 0px;
+
+  /* PX AI application theme contract. */
+  --pixel: 1px;
+  --ink: var(--color-on-surface);
+  --paper: var(--color-muted);
+  --bg: var(--color-bg);
+  --red: var(--color-primary);
+  --blue: var(--color-primary);
+  --green: var(--color-primary);
+  --yellow: var(--color-accent);
+  --on-red: #000000;
+  --on-blue: #000000;
+  --on-green: #000000;
+  --on-yellow: #000000;
+  --on-accent: #000000;
+  --muted: var(--color-muted);
+  --soft-line: var(--color-border);
+  --border: var(--color-border);
+  --hover-surface: var(--color-surface);
+  --placeholder: var(--color-muted);
+  --font-pixel: 'Inter Tight', 'Microsoft YaHei', sans-serif;
+  --font-body: 'Inter', 'Microsoft YaHei', sans-serif;
+  color-scheme: dark;
+}

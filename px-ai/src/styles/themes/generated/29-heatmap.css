@@ -1,0 +1,46 @@
+/* Generated from designs/29-heatmap/DESIGN.md. Do not edit manually. */
+[data-theme='29-heatmap'] {
+  --color-heatmap-cool: #0080ff;
+  --color-heatmap-neutral: #fff3b0;
+  --color-heatmap-hot: #e00000;
+  --color-tooltip-bg: #000000e6;
+  --color-bg: #f8fafc;
+  --color-card: #ffffff;
+  --color-ink: #111827;
+  --color-muted: #4b5563;
+  --color-line: #e5e7eb;
+  --color-accent: #0062c4;
+  --color-accent-deep: #004e9e;
+  --color-focus: #0062c4;
+  --color-primary: #0062c4;
+  --color-on-primary: #ffffff;
+  --color-surface: #f8fafc;
+  --color-on-surface: #111827;
+  --spacing-unit: 8px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 32px;
+  --rounded-DEFAULT: 4px;
+
+  /* PX AI application theme contract. */
+  --pixel: 1px;
+  --ink: var(--color-on-surface);
+  --paper: var(--color-card);
+  --bg: var(--color-bg);
+  --red: var(--color-primary);
+  --blue: var(--color-primary);
+  --green: var(--color-primary);
+  --yellow: var(--color-accent);
+  --on-red: #ffffff;
+  --on-blue: #ffffff;
+  --on-green: #ffffff;
+  --on-yellow: #ffffff;
+  --on-accent: #ffffff;
+  --muted: var(--color-muted);
+  --soft-line: var(--color-line);
+  --border: var(--color-line);
+  --hover-surface: var(--color-surface);
+  --placeholder: var(--color-muted);
+  --font-pixel: 'Inter', 'Microsoft YaHei', sans-serif;
+  --font-body: 'Noto Sans SC', 'Microsoft YaHei', sans-serif;
+}

@@ -1,0 +1,49 @@
+/* Generated from designs/55-spatial-ui-visionos/DESIGN.md. Do not edit manually. */
+[data-theme='55-spatial-ui-visionos'] {
+  --color-glass-bg: #ffffff29;
+  --color-glass-bg-strong: #ffffff3d;
+  --color-text: #ffffff;
+  --color-text-soft: #ffffffc7;
+  --color-active-blue: #66b8ff;
+  --color-active-teal: #5ae0c8;
+  --color-background: #10162e;
+  --color-on-background: #ffffff;
+  --color-primary: #66b8ff;
+  --color-on-primary: #ffffff;
+  --color-secondary: #5ae0c8;
+  --color-on-secondary: #0a3a4a;
+  --color-tertiary: #ffffff3d;
+  --color-on-tertiary: #ffffff;
+  --color-surface: #ffffff29;
+  --color-on-surface: #ffffff;
+  --spacing-unit: 8px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 32px;
+  --rounded-window-radius: 28px;
+  --rounded-card-radius: 24px;
+  --rounded-DEFAULT: 28px;
+
+  /* PX AI application theme contract. */
+  --pixel: 1px;
+  --ink: var(--color-on-background);
+  --paper: var(--color-surface);
+  --bg: var(--color-background);
+  --red: var(--color-tertiary);
+  --blue: var(--color-active-blue);
+  --green: var(--color-tertiary);
+  --yellow: var(--color-secondary);
+  --on-red: #000000;
+  --on-blue: #000000;
+  --on-green: #000000;
+  --on-yellow: #000000;
+  --on-accent: #000000;
+  --muted: var(--color-secondary);
+  --soft-line: var(--color-secondary);
+  --border: var(--color-secondary);
+  --hover-surface: var(--color-surface);
+  --placeholder: var(--color-secondary);
+  --font-pixel: 'Inter', 'Microsoft YaHei', sans-serif;
+  --font-body: 'Inter', 'Microsoft YaHei', sans-serif;
+  color-scheme: dark;
+}

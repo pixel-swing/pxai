@@ -1,0 +1,44 @@
+/* Generated from designs/85-neumorphism-mobile/DESIGN.md. Do not edit manually. */
+[data-theme='85-neumorphism-mobile'] {
+  --color-bg: #e0e5ec;
+  --color-text: #3d4852;
+  --color-muted: #5d6673;
+  --color-accent-deep: #5a50e8;
+  --color-inset-bg: #d1d9e6;
+  --color-shadow-light: #ffffffd9;
+  --color-shadow-dark: #a3b1c6b3;
+  --color-primary: #5a50e8;
+  --color-on-primary: #ffffff;
+  --color-surface: #e0e5ec;
+  --color-on-surface: #3d4852;
+  --spacing-unit: 8px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 32px;
+  --rounded-radius-card: 32px;
+  --rounded-radius-button: 16px;
+  --rounded-radius-pill: 999px;
+  --rounded-DEFAULT: 32px;
+
+  /* PX AI application theme contract. */
+  --pixel: 1px;
+  --ink: var(--color-on-surface);
+  --paper: var(--color-inset-bg);
+  --bg: var(--color-bg);
+  --red: var(--color-primary);
+  --blue: var(--color-primary);
+  --green: var(--color-primary);
+  --yellow: var(--color-accent-deep);
+  --on-red: #ffffff;
+  --on-blue: #ffffff;
+  --on-green: #ffffff;
+  --on-yellow: #ffffff;
+  --on-accent: #ffffff;
+  --muted: var(--color-muted);
+  --soft-line: var(--color-primary);
+  --border: var(--color-primary);
+  --hover-surface: var(--color-surface);
+  --placeholder: var(--color-muted);
+  --font-pixel: 'Plus Jakarta Sans', 'Microsoft YaHei', sans-serif;
+  --font-body: 'Plus Jakarta Sans', 'Microsoft YaHei', sans-serif;
+}
