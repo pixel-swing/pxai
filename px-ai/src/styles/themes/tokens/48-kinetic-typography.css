@@ -1,0 +1,63 @@
+/* Generated from designs/48-kinetic-typography/DESIGN.md. Do not edit manually. */
+[data-theme='48-kinetic-typography'] {
+  --color-bg: #0b0b14;
+  --color-surface: #14141f;
+  --color-line: #ffffff1f;
+  --color-ink: #edeef6;
+  --color-muted: #a9afc6;
+  --color-c1: #ff3cac;
+  --color-c2: #8b5cf6;
+  --color-c3: #22d3ee;
+  --color-background: #0b0b14;
+  --color-on-background: #edeef6;
+  --color-primary: #8b5cf6;
+  --color-on-primary: #ffffff;
+  --color-secondary: #22d3ee;
+  --color-on-secondary: #0b0b14;
+  --color-tertiary: #ff3cac;
+  --color-on-tertiary: #0b0b14;
+  --color-on-surface: #edeef6;
+  --spacing-unit: 8px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 32px;
+  --rounded-radius: 14px;
+  --rounded-DEFAULT: 14px;
+
+  /* PX AI application theme contract. */
+  --pixel: 1px;
+  --ink: #edeef6;
+  --paper: #14141f;
+  --bg: #0b0b14;
+  --red: var(--color-tertiary);
+  --blue: var(--color-secondary);
+  --green: var(--color-tertiary);
+  --yellow: var(--color-secondary);
+  --on-red: #000000;
+  --on-blue: #000000;
+  --on-green: #000000;
+  --on-yellow: #000000;
+  --on-accent: #000000;
+  --muted: #a9afc6;
+  --soft-line: var(--color-line);
+  --border: rgba(255,255,255,.12);
+  --hover-surface: var(--color-surface);
+  --placeholder: var(--color-muted);
+  --font-pixel: 'Space Grotesk', 'Noto Sans SC', sans-serif;
+  --font-body: 'Noto Sans SC', 'Microsoft YaHei', sans-serif;
+  color-scheme: dark;
+  --c1: #ff3cac;
+  --c2: #8b5cf6;
+  --c3: #22d3ee;
+  --gradient-text: linear-gradient(90deg,var(--c1),var(--c2),var(--c3));
+  --theme-color-01: #0b0b14d9;
+  --theme-color-02: #8b5cf666;
+  --theme-color-03: #22d3ee1a;
+  --theme-color-04: #2a2a3d;
+  --theme-color-05: #8b5cf680;
+  --theme-color-06: #ff3cac1a;
+  --theme-color-07: #ff3cac73;
+  --theme-color-08: #0f0f1a;
+  --theme-color-09: #22d3ee59;
+  --theme-color-10: #22d3ee73;
+}

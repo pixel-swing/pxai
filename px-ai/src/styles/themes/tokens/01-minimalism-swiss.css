@@ -1,0 +1,54 @@
+/* Generated from designs/01-minimalism-swiss/DESIGN.md. Do not edit manually. */
+[data-theme='01-minimalism-swiss'] {
+  --color-primary: #000000;
+  --color-on-primary: #ffffff;
+  --color-background: #ffffff;
+  --color-on-background: #000000;
+  --color-primary-container: #f5f1e8;
+  --color-on-primary-container: #000000;
+  --color-secondary: #808080;
+  --color-on-secondary: #ffffff;
+  --color-tertiary: #d32011;
+  --color-on-tertiary: #ffffff;
+  --color-neutral: #ffffff;
+  --color-on-neutral: #000000;
+  --color-surface: #ffffff;
+  --color-on-surface: #000000;
+  --color-surface-muted: #f5f1e8;
+  --color-on-surface-muted: #333333;
+  --color-outline: #000000;
+  --color-outline-subtle: #e5e0d5;
+  --color-decorative-taupe: #b38b6d;
+  --color-disabled: #808080;
+  --spacing-hairline: 1px;
+  --spacing-xs: 0.5rem;
+  --spacing-sm: 1rem;
+  --spacing-md: 1.5rem;
+  --spacing-lg: 2rem;
+  --spacing-xl: 3rem;
+  --spacing-section: 5.5rem;
+  --rounded-none: 0px;
+  --rounded-DEFAULT: 0px;
+
+  /* PX AI application theme contract. */
+  --pixel: var(--spacing-hairline);
+  --ink: var(--color-on-background);
+  --paper: var(--color-surface);
+  --bg: var(--color-background);
+  --red: var(--color-tertiary);
+  --blue: var(--color-secondary);
+  --green: var(--color-tertiary);
+  --yellow: var(--color-secondary);
+  --on-red: #ffffff;
+  --on-blue: #000000;
+  --on-green: #ffffff;
+  --on-yellow: #000000;
+  --on-accent: #ffffff;
+  --muted: var(--color-on-surface-muted);
+  --soft-line: var(--color-outline-subtle);
+  --border: var(--color-outline);
+  --hover-surface: var(--color-surface-muted);
+  --placeholder: var(--color-disabled);
+  --font-pixel: 'Inter', 'Microsoft YaHei', sans-serif;
+  --font-body: 'Inter', 'Microsoft YaHei', sans-serif;
+}

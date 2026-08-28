@@ -1,0 +1,66 @@
+/* Generated from designs/09-claymorphism/DESIGN.md. Do not edit manually. */
+[data-theme='09-claymorphism'] {
+  --color-peach: #fdbcb4;
+  --color-sky: #add8e6;
+  --color-mint: #98ff98;
+  --color-lilac: #e6e6fa;
+  --color-bg: #fff4ec;
+  --color-card: #fffbf7;
+  --color-ink: #4a3650;
+  --color-muted: #7a6478;
+  --color-accent: #b23e2b;
+  --color-background: #fff4ec;
+  --color-on-background: #4a3650;
+  --color-primary: #fdbcb4;
+  --color-on-primary: #4a3650;
+  --color-secondary: #add8e6;
+  --color-on-secondary: #4a3650;
+  --color-tertiary: #98ff98;
+  --color-on-tertiary: #4a3650;
+  --color-surface: #fffbf7;
+  --color-on-surface: #4a3650;
+  --spacing-unit: 8px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 32px;
+  --rounded-radius: 20px;
+  --rounded-radius-lg: 28px;
+  --rounded-DEFAULT: 20px;
+
+  /* PX AI application theme contract. */
+  --pixel: 1px;
+  --ink: var(--color-ink);
+  --paper: var(--color-card);
+  --bg: var(--color-bg);
+  --red: var(--color-peach);
+  --blue: var(--color-sky);
+  --green: var(--color-mint);
+  --yellow: var(--color-lilac);
+  --on-red: var(--color-ink);
+  --on-blue: var(--color-ink);
+  --on-green: var(--color-ink);
+  --on-yellow: var(--color-ink);
+  --on-accent: var(--color-ink);
+  --muted: var(--color-muted);
+  --soft-line: var(--theme-color-01);
+  --border: var(--on-yellow);
+  --hover-surface: var(--color-card);
+  --placeholder: var(--color-muted);
+  --font-pixel: 'Nunito', 'Microsoft YaHei', sans-serif;
+  --font-body: 'Nunito', 'Microsoft YaHei', sans-serif;
+  --clay-inner: inset -2px -2px 8px var(--theme-color-02), inset 3px 3px 8px var(--theme-color-03);
+  --clay-outer: 4px 4px 8px var(--theme-color-04);
+  --clay-bounce: cubic-bezier(.34, 1.56, .64, 1);
+  --theme-color-01: #f0dacb;
+  --theme-color-05: #fff4eceb;
+  --theme-color-06: #c77c6852;
+  --theme-color-07: #c77c6840;
+  --theme-color-08: #477789;
+  --theme-color-09: #287a28;
+  --theme-color-10: #c77c6857;
+  --theme-color-11: #f2dcce;
+  --theme-color-12: #8c564a14;
+  --theme-color-02: #fff;
+  --theme-color-03: rgba(140, 86, 74, .16);
+  --theme-color-04: rgba(255, 255, 255, .9);
+}

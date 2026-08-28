@@ -1,0 +1,53 @@
+/* Generated from designs/38-neubrutalism/DESIGN.md. Do not edit manually. */
+[data-theme='38-neubrutalism'] {
+  --color-shadow-color: #000000;
+  --color-yellow: #ffeb3b;
+  --color-red: #ff5252;
+  --color-blue: #2196f3;
+  --color-mint: #4ecdc4;
+  --color-mustard: #ffdb58;
+  --color-coral: #ff6b6b;
+  --color-ink: #000000;
+  --color-paper: #f9f2e0;
+  --color-card: #ffffff;
+  --color-background: #f9f2e0;
+  --color-on-background: #000000;
+  --color-primary: #ffeb3b;
+  --color-on-primary: #000000;
+  --color-secondary: #ff5252;
+  --color-on-secondary: #000000;
+  --color-tertiary: #4ecdc4;
+  --color-on-tertiary: #000000;
+  --color-surface: #ffffff;
+  --color-on-surface: #000000;
+  --spacing-unit: 8px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 32px;
+  --rounded-radius: 0px;
+  --rounded-DEFAULT: 0px;
+
+  /* PX AI application theme contract. */
+  --pixel: 1px;
+  --ink: #000;
+  --paper: #fff;
+  --bg: #f9f2e0;
+  --red: #ff5252;
+  --blue: #2196f3;
+  --green: #4ecdc4;
+  --yellow: #ffeb3b;
+  --on-red: #000;
+  --on-blue: #000;
+  --on-green: #000;
+  --on-yellow: #000;
+  --on-accent: #000;
+  --muted: #000;
+  --soft-line: #000;
+  --border: #000;
+  --hover-surface: #ffdb58;
+  --placeholder: #57534e;
+  --font-pixel: 'Archivo Black', 'Space Grotesk', 'Microsoft YaHei', sans-serif;
+  --font-body: 'Space Grotesk', 'Microsoft YaHei', sans-serif;
+  --app-stroke: 3px;
+  --theme-color-01: #00000014;
+}

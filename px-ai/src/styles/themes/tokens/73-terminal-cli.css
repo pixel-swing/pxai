@@ -1,0 +1,60 @@
+/* Generated from designs/73-terminal-cli/DESIGN.md. Do not edit manually. */
+[data-theme='73-terminal-cli'] {
+  --color-bg: #050505;
+  --color-fg-primary: #33ff00;
+  --color-fg-amber: #ffb000;
+  --color-fg-muted: #1a3d1a;
+  --color-fg-dim: #9be58a;
+  --color-fg-error: #ff3333;
+  --color-border: #33ff00;
+  --color-background: #050505;
+  --color-on-background: #33ff00;
+  --color-primary: #33ff00;
+  --color-on-primary: #000000;
+  --color-secondary: #ffb000;
+  --color-on-secondary: #050505;
+  --color-tertiary: #ff3333;
+  --color-on-tertiary: #050505;
+  --color-surface: #050505;
+  --color-on-surface: #33ff00;
+  --spacing-unit: 8px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 32px;
+  --rounded-radius: 0px;
+  --rounded-DEFAULT: 0px;
+
+  /* PX AI application theme contract. */
+  --pixel: 1px;
+  --ink: #33ff00;
+  --paper: #050505;
+  --bg: #050505;
+  --red: var(--color-fg-error);
+  --blue: var(--color-secondary);
+  --green: var(--color-tertiary);
+  --yellow: var(--color-fg-amber);
+  --on-red: #000000;
+  --on-blue: #000000;
+  --on-green: #000000;
+  --on-yellow: #000000;
+  --on-accent: #000000;
+  --muted: #9be58a;
+  --soft-line: #1a3d1a;
+  --border: #33ff00;
+  --hover-surface: rgba(51,255,0,.08);
+  --placeholder: var(--color-fg-muted);
+  --font-pixel: 'JetBrains Mono',monospace;
+  --font-body: 'JetBrains Mono',monospace;
+  color-scheme: dark;
+  --theme-color-03: #020202;
+  --theme-color-04: #33ff0006;
+  --theme-color-05: #ffb00014;
+  --theme-color-06: #33ff0017;
+  --theme-color-07: #000c;
+  --theme-color-09: #33ff0008;
+  --theme-color-10: #33ff0040;
+  --theme-color-11: #33ff0073;
+  --theme-color-01: rgba(51,255,0,.05);
+  --theme-color-02: rgba(0,0,0,.5);
+  --theme-color-08: rgba(51,255,0,.055);
+}

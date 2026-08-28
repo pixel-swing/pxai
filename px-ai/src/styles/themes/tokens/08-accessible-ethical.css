@@ -1,0 +1,51 @@
+/* Generated from designs/08-accessible-ethical/DESIGN.md. Do not edit manually. */
+[data-theme='08-accessible-ethical'] {
+  --color-bg: #ffffff;
+  --color-surface: #f2f5f8;
+  --color-ink: #1a1a1a;
+  --color-ink-soft: #40505c;
+  --color-primary: #0b4f8a;
+  --color-primary-dark: #093f6e;
+  --color-primary-tint: #e8f1f9;
+  --color-success: #1b5e20;
+  --color-error: #b10e1e;
+  --color-warn-ink: #6b4a00;
+  --color-warn-bg: #fff3d6;
+  --color-line: #c7d3dd;
+  --color-background: #ffffff;
+  --color-on-background: #1a1a1a;
+  --color-on-primary: #ffffff;
+  --color-on-surface: #1a1a1a;
+  --spacing-unit: 8px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 32px;
+  --rounded-radius: 8px;
+  --rounded-DEFAULT: 8px;
+
+  /* PX AI application theme contract. */
+  --pixel: 1px;
+  --ink: var(--color-ink);
+  --paper: var(--color-bg);
+  --bg: var(--color-bg);
+  --red: var(--color-error);
+  --blue: var(--color-primary);
+  --green: var(--color-success);
+  --yellow: var(--color-warn-bg);
+  --on-red: var(--color-on-primary);
+  --on-blue: var(--color-on-primary);
+  --on-green: var(--color-on-primary);
+  --on-yellow: var(--color-warn-ink);
+  --on-accent: var(--color-on-primary);
+  --muted: var(--color-ink-soft);
+  --soft-line: var(--color-line);
+  --border: var(--color-line);
+  --hover-surface: var(--color-primary-tint);
+  --placeholder: var(--theme-color-01);
+  --font-pixel: 'Atkinson Hyperlegible', 'Microsoft YaHei', sans-serif;
+  --font-body: 'Atkinson Hyperlegible', 'Microsoft YaHei', sans-serif;
+  --theme-color-02: #e9f3ea;
+  --theme-color-03: #fbeaeb;
+  --theme-color-04: #062f53;
+  --theme-color-01: #5a6572;
+}

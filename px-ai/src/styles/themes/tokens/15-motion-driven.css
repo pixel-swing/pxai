@@ -1,0 +1,68 @@
+/* Generated from designs/15-motion-driven/DESIGN.md. Do not edit manually. */
+[data-theme='15-motion-driven'] {
+  --color-bg: #f6f7fb;
+  --color-card: #ffffff;
+  --color-ink: #14162b;
+  --color-muted: #4b5069;
+  --color-indigo: #4f46e5;
+  --color-magenta: #d946ef;
+  --color-purple: #a21caf;
+  --color-success: #22c55e;
+  --color-error: #ef4444;
+  --color-background: #f6f7fb;
+  --color-on-background: #14162b;
+  --color-primary: #4f46e5;
+  --color-on-primary: #ffffff;
+  --color-secondary: #d946ef;
+  --color-on-secondary: #ffffff;
+  --color-tertiary: #22c55e;
+  --color-on-tertiary: #052e16;
+  --color-surface: #ffffff;
+  --color-on-surface: #14162b;
+  --spacing-unit: 8px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 32px;
+  --rounded-radius: 20px;
+  --rounded-DEFAULT: 20px;
+
+  /* PX AI application theme contract. */
+  --pixel: 1px;
+  --ink: #14162b;
+  --paper: #fff;
+  --bg: #f6f7fb;
+  --red: #d946ef;
+  --blue: #4f46e5;
+  --green: #22c55e;
+  --yellow: #a21caf;
+  --on-red: #fff;
+  --on-blue: #fff;
+  --on-green: #052e16;
+  --on-yellow: #fff;
+  --on-accent: #fff;
+  --muted: #4b5069;
+  --soft-line: rgba(20, 22, 43, 0.12);
+  --border: rgba(20, 22, 43, 0.08);
+  --hover-surface: #fff;
+  --placeholder: #7a7f99;
+  --font-pixel: 'Space Grotesk', 'Microsoft YaHei', sans-serif;
+  --font-body: 'Inter', 'Microsoft YaHei', sans-serif;
+  --app-stroke: 1px;
+  --theme-color-01: #f6f7fbd9;
+  --theme-color-02: #4f46e559;
+  --theme-color-03: #4f46e51a;
+  --theme-color-04: #a21caf66;
+  --theme-color-09: #22c55e80;
+  --theme-color-10: #4f46e566;
+  --theme-color-11: #14162b12;
+  --theme-color-12: #14162b29;
+  --theme-color-13: #3730a3;
+  --theme-color-14: #e0e7ff;
+  --theme-color-15: #14162b24;
+  --theme-color-16: #4f46e533;
+  --theme-color-17: #e6e8f4;
+  --theme-color-05: rgba(217, 70, 239, 0.4);
+  --theme-color-06: rgba(79, 70, 229, 0.25);
+  --theme-color-07: rgba(79, 70, 229, 0.16);
+  --theme-color-08: rgba(20, 22, 43, 0.22);
+}

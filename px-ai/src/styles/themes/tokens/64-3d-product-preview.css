@@ -1,0 +1,65 @@
+/* Generated from designs/64-3d-product-preview/DESIGN.md. Do not edit manually. */
+[data-theme='64-3d-product-preview'] {
+  --color-canvas-bg: #f5f5f5;
+  --color-surface: #ffffff;
+  --color-bg: #e8e8e8;
+  --color-fg: #1a1a1a;
+  --color-muted: #5c6470;
+  --color-border: #dde1e6;
+  --color-hotspot: #3b82f6;
+  --color-accent: #2563eb;
+  --color-accent-dark: #1d4ed8;
+  --color-background: #e8e8e8;
+  --color-on-background: #1a1a1a;
+  --color-primary: #2563eb;
+  --color-on-primary: #ffffff;
+  --color-secondary: #1a1a1a;
+  --color-on-secondary: #ffffff;
+  --color-tertiary: #d97706;
+  --color-on-tertiary: #ffffff;
+  --color-on-surface: #1a1a1a;
+  --spacing-unit: 8px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 32px;
+  --rounded-radius: 14px;
+  --rounded-DEFAULT: 14px;
+
+  /* PX AI application theme contract. */
+  --pixel: 1px;
+  --ink: #1a1a1a;
+  --paper: #fff;
+  --bg: #e8e8e8;
+  --red: var(--color-tertiary);
+  --blue: var(--color-secondary);
+  --green: var(--color-tertiary);
+  --yellow: var(--color-accent);
+  --on-red: #000000;
+  --on-blue: #ffffff;
+  --on-green: #000000;
+  --on-yellow: #ffffff;
+  --on-accent: #ffffff;
+  --muted: #5c6470;
+  --soft-line: #dde1e6;
+  --border: #dde1e6;
+  --hover-surface: #fafbfc;
+  --placeholder: var(--color-muted);
+  --font-pixel: 'Inter',sans-serif;
+  --font-body: 'Noto Sans SC','Inter',sans-serif;
+  --theme-color-01: #ffffffeb;
+  --theme-color-02: #2563eb14;
+  --theme-color-03: #2563eb40;
+  --theme-color-04: #2563eb52;
+  --theme-color-05: #e3e3e3;
+  --theme-color-07: #00000014;
+  --theme-color-08: #1647a6;
+  --theme-color-09: #0000002e;
+  --theme-color-10: #1a1a1a2e;
+  --theme-color-12: #1a1a1a0f;
+  --theme-color-13: #1a1a1a14;
+  --theme-color-14: #1a1a1a1f;
+  --theme-color-15: #2563eb1a;
+  --theme-color-06: rgba(0,0,0,.3);
+  --theme-color-11: rgba(59,130,246,.28);
+  --theme-color-16: rgba(59,130,246,0);
+}

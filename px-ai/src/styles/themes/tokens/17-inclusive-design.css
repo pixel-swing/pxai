@@ -1,0 +1,64 @@
+/* Generated from designs/17-inclusive-design/DESIGN.md. Do not edit manually. */
+[data-theme='17-inclusive-design'] {
+  --color-color-text: #111827;
+  --color-color-muted: #374151;
+  --color-color-bg: #ffffff;
+  --color-color-surface: #f3f4f6;
+  --color-color-primary: #1e40af;
+  --color-color-primary-dark: #16308c;
+  --color-color-success: #166534;
+  --color-color-error: #991b1b;
+  --color-color-warn: #92400e;
+  --color-focus-color: #1e40af;
+  --color-line: #d1d5db;
+  --color-background: #ffffff;
+  --color-on-background: #111827;
+  --color-primary: #1e40af;
+  --color-on-primary: #ffffff;
+  --color-secondary: #166534;
+  --color-on-secondary: #ffffff;
+  --color-tertiary: #92400e;
+  --color-on-tertiary: #ffffff;
+  --color-surface: #ffffff;
+  --color-on-surface: #111827;
+  --spacing-unit: 8px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 32px;
+  --rounded-radius: 8px;
+  --rounded-DEFAULT: 8px;
+
+  /* PX AI application theme contract. */
+  --pixel: 1px;
+  --ink: #111827;
+  --paper: #fff;
+  --bg: #fff;
+  --red: #991b1b;
+  --blue: #1e40af;
+  --green: #166534;
+  --yellow: #92400e;
+  --on-red: #fff;
+  --on-blue: #fff;
+  --on-green: #fff;
+  --on-yellow: #fff;
+  --on-accent: #fff;
+  --muted: #374151;
+  --soft-line: #d1d5db;
+  --border: #111827;
+  --hover-surface: #f3f4f6;
+  --placeholder: #6b7280;
+  --font-pixel: 'Inter', 'Atkinson Hyperlegible', 'Microsoft YaHei', sans-serif;
+  --font-body: 'Atkinson Hyperlegible', 'Microsoft YaHei', sans-serif;
+  --app-stroke: 3px;
+  --theme-color-01: #1e40af26;
+  --theme-color-02: #eff3fe;
+  --theme-color-03: #1118271f;
+  --theme-color-06: #fffbeb;
+  --theme-color-08: #fef2f2;
+  --theme-color-10: #1e40af33;
+  --theme-color-11: #f9fafb;
+  --theme-color-04: #f0fdf4;
+  --theme-color-05: #1665341f;
+  --theme-color-07: #92400e40;
+  --theme-color-09: #991b1b1f;
+}

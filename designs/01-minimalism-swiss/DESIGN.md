@@ -7,9 +7,12 @@ description: "源自 1950 年代瑞士国际主义排版的极简风格：网格
 colors:
   primary: "#000000"
   on-primary: "#FFFFFF"
+  background: "#FFFFFF"
+  on-background: "#000000"
   primary-container: "#F5F1E8"
   on-primary-container: "#000000"
   secondary: "#808080"
+  on-secondary: "#FFFFFF"
   tertiary: "#D32011"
   on-tertiary: "#FFFFFF"
   neutral: "#FFFFFF"

@@ -1,0 +1,56 @@
+/* Generated from designs/12-flat-design/DESIGN.md. Do not edit manually. */
+[data-theme='12-flat-design'] {
+  --color-blue: #2471a3;
+  --color-blue-dark: #1d5d88;
+  --color-blue-darker: #174a6d;
+  --color-red: #c0392b;
+  --color-green: #1e8449;
+  --color-orange: #e67e22;
+  --color-ink: #22313f;
+  --color-ink-soft: #5d6d7e;
+  --color-bg: #ffffff;
+  --color-grey: #ecf0f1;
+  --color-background: #ffffff;
+  --color-on-background: #22313f;
+  --color-primary: #2471a3;
+  --color-on-primary: #ffffff;
+  --color-secondary: #1e8449;
+  --color-on-secondary: #ffffff;
+  --color-tertiary: #e67e22;
+  --color-on-tertiary: #1a252f;
+  --color-surface: #ffffff;
+  --color-on-surface: #22313f;
+  --spacing-unit: 8px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 32px;
+  --rounded-radius: 4px;
+  --rounded-DEFAULT: 4px;
+
+  /* PX AI application theme contract. */
+  --pixel: 1px;
+  --ink: #22313f;
+  --paper: #fff;
+  --bg: #fff;
+  --red: #c0392b;
+  --blue: #2471a3;
+  --green: #1e8449;
+  --yellow: #e67e22;
+  --on-red: #fff;
+  --on-blue: #fff;
+  --on-green: #fff;
+  --on-yellow: #1a252f;
+  --on-accent: #fff;
+  --muted: #5d6d7e;
+  --soft-line: #d6dde3;
+  --border: #d6dde3;
+  --hover-surface: #e2e8ea;
+  --placeholder: #5d6d7e;
+  --font-pixel: 'Rubik', 'Microsoft YaHei', sans-serif;
+  --font-body: 'Rubik', 'Microsoft YaHei', sans-serif;
+  --app-stroke: 1px;
+  --theme-color-01: #eaf4fb;
+  --theme-color-02: #ffffffe0;
+  --theme-color-03: #ffffff29;
+  --theme-color-04: #e8edf1;
+}

@@ -1,0 +1,59 @@
+/* Generated from designs/18-zero-interface/DESIGN.md. Do not edit manually. */
+[data-theme='18-zero-interface'] {
+  --color-bg: #fafafa;
+  --color-bg-alt: #f0f0f0;
+  --color-bg-warm: #f5f1e8;
+  --color-ink: #1c1c1e;
+  --color-ink-soft: #4b5563;
+  --color-line: #e4e4e7;
+  --color-ok-bg: #dcfce7;
+  --color-ok-ink: #14532d;
+  --color-err-bg: #fee2e2;
+  --color-err-ink: #7f1d1d;
+  --color-background: #fafafa;
+  --color-on-background: #1c1c1e;
+  --color-primary: #1c1c1e;
+  --color-on-primary: #ffffff;
+  --color-secondary: #4b5563;
+  --color-on-secondary: #ffffff;
+  --color-tertiary: #14532d;
+  --color-on-tertiary: #ffffff;
+  --color-surface: #ffffff;
+  --color-on-surface: #1c1c1e;
+  --spacing-unit: 8px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 32px;
+  --rounded-radius: 20px;
+  --rounded-DEFAULT: 20px;
+
+  /* PX AI application theme contract. */
+  --pixel: 1px;
+  --ink: #1c1c1e;
+  --paper: #fff;
+  --bg: #fafafa;
+  --red: #7f1d1d;
+  --blue: #4b5563;
+  --green: #14532d;
+  --yellow: #f5f1e8;
+  --on-red: #fff;
+  --on-blue: #fff;
+  --on-green: #fff;
+  --on-yellow: #1c1c1e;
+  --on-accent: #fff;
+  --muted: #4b5563;
+  --soft-line: #e4e4e7;
+  --border: #e4e4e7;
+  --hover-surface: #f0f0f0;
+  --placeholder: #71717a;
+  --font-pixel: 'Space Grotesk', 'Microsoft YaHei', sans-serif;
+  --font-body: 'Space Grotesk', 'Microsoft YaHei', sans-serif;
+  --app-stroke: 1px;
+  --theme-color-01: #1c1c1e0a;
+  --theme-color-02: #fafafad9;
+  --theme-color-03: #000;
+  --theme-color-04: #1c1c1e47;
+  --theme-color-06: #1c1c1e40;
+  --theme-color-07: #d4d4d8;
+  --theme-color-05: #1c1c1e29;
+}

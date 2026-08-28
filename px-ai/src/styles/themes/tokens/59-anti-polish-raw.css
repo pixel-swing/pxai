@@ -1,0 +1,65 @@
+/* Generated from designs/59-anti-polish-raw/DESIGN.md. Do not edit manually. */
+[data-theme='59-anti-polish-raw'] {
+  --color-paper-bg: #fafaf8;
+  --color-pencil: #4a4a4a;
+  --color-marker: #1a1a1a;
+  --color-kraft: #c4a77d;
+  --color-tape: #c4a77d8c;
+  --color-aged: #ede6d6;
+  --color-paper-white: #ffffff;
+  --color-placeholder: #8a8a85;
+  --color-primary: #1a1a1a;
+  --color-on-primary: #fafaf8;
+  --color-primary-container: #ede6d6;
+  --color-on-primary-container: #1a1a1a;
+  --color-secondary: #ffffff;
+  --color-on-secondary: #1a1a1a;
+  --color-secondary-container: #ede6d6;
+  --color-on-secondary-container: #1a1a1a;
+  --color-tertiary: #c4a77d;
+  --color-on-tertiary: #1a1a1a;
+  --color-background: #fafaf8;
+  --color-on-background: #1a1a1a;
+  --color-surface: #ffffff;
+  --color-on-surface: #1a1a1a;
+  --color-surface-container: #ede6d6;
+  --color-outline: #4a4a4a;
+  --spacing-unit: 0.25rem;
+  --spacing-sm: 0.7rem;
+  --spacing-md: 1.25rem;
+  --spacing-lg: 1.6rem;
+  --spacing-xl: 2.8rem;
+  --rounded-DEFAULT: 2px;
+  --rounded-demo: 6px;
+
+  /* PX AI application theme contract. */
+  --pixel: 1px;
+  --ink: var(--color-marker);
+  --paper: var(--color-paper-white);
+  --bg: var(--color-paper-bg);
+  --red: var(--color-marker);
+  --blue: var(--color-pencil);
+  --green: var(--color-kraft);
+  --yellow: var(--color-aged);
+  --on-red: var(--color-paper-bg);
+  --on-blue: var(--color-paper-bg);
+  --on-green: var(--color-marker);
+  --on-yellow: var(--color-marker);
+  --on-accent: var(--color-marker);
+  --muted: var(--color-pencil);
+  --soft-line: var(--color-pencil);
+  --border: var(--color-marker);
+  --hover-surface: var(--color-aged);
+  --placeholder: var(--color-placeholder);
+  --font-pixel: 'ZCOOL KuaiLe', 'Patrick Hand', 'Comic Sans MS', cursive;
+  --font-body: 'Patrick Hand', system-ui, -apple-system, 'Microsoft YaHei', sans-serif;
+  --raw-wobble: 255px 15px 225px 15px / 15px 225px 15px 255px;
+  --raw-wobble-alt: 15px 225px 15px 255px / 255px 15px 225px 15px;
+  --theme-color-01: #4a4a4a47;
+  --theme-color-02: #4a4a4a4d;
+  --theme-color-03: #4a4a4a40;
+  --theme-color-06: #1a1a1a59;
+  --theme-color-07: #4a4a4a66;
+  --theme-color-04: #1a1a1a40;
+  --theme-color-05: #4a4a4a29;
+}

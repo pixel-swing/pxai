@@ -1,0 +1,66 @@
+/* Generated from designs/67-chromatic-aberration/DESIGN.md. Do not edit manually. */
+[data-theme='67-chromatic-aberration'] {
+  --color-red-channel: #ff0000;
+  --color-green-channel: #00ff00;
+  --color-blue-channel: #0000ff;
+  --color-cyan: #00ffff;
+  --color-bg: #050505;
+  --color-panel: #0d0d0f;
+  --color-ink: #eaeaea;
+  --color-dim: #9a9a9a;
+  --color-line: #eaeaea2e;
+  --color-background: #050505;
+  --color-on-background: #eaeaea;
+  --color-primary: #eaeaea;
+  --color-on-primary: #000000;
+  --color-secondary: #00ffff;
+  --color-on-secondary: #050505;
+  --color-tertiary: #00ff00;
+  --color-on-tertiary: #050505;
+  --color-surface: #0d0d0f;
+  --color-on-surface: #eaeaea;
+  --spacing-unit: 8px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 32px;
+  --rounded-DEFAULT: 0px;
+
+  /* PX AI application theme contract. */
+  --pixel: 1px;
+  --ink: #eaeaea;
+  --paper: #0d0d0f;
+  --bg: #050505;
+  --red: var(--color-red-channel);
+  --blue: var(--color-blue-channel);
+  --green: var(--color-green-channel);
+  --yellow: var(--color-secondary);
+  --on-red: #000000;
+  --on-blue: #ffffff;
+  --on-green: #000000;
+  --on-yellow: #000000;
+  --on-accent: #000000;
+  --muted: #9a9a9a;
+  --soft-line: rgba(234,234,234,.18);
+  --border: rgba(234,234,234,.18);
+  --hover-surface: #111115;
+  --placeholder: var(--color-secondary);
+  --font-pixel: 'Space Grotesk',sans-serif;
+  --font-body: 'IBM Plex Mono',monospace;
+  color-scheme: dark;
+  --theme-color-02: #050505eb;
+  --theme-color-03: #eaeaea4d;
+  --theme-color-07: #f00c;
+  --theme-color-08: #0ffc;
+  --theme-color-09: #00ff00b3;
+  --theme-color-10: #0000ffe6;
+  --theme-color-11: #eaeaea38;
+  --theme-color-15: #ff00008c;
+  --theme-color-16: #00ffff8c;
+  --theme-color-01: rgba(255,255,255,.1);
+  --theme-color-04: rgba(255,0,0,.12);
+  --theme-color-05: rgba(0,0,255,.16);
+  --theme-color-06: rgba(0,255,0,.07);
+  --theme-color-12: rgba(255,255,255,.08);
+  --theme-color-13: rgba(255,0,0,.22);
+  --theme-color-14: rgba(0,255,255,.22);
+}

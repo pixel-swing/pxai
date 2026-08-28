@@ -1,0 +1,49 @@
+/* Generated from designs/56-eink-paper/DESIGN.md. Do not edit manually. */
+[data-theme='56-eink-paper'] {
+  --color-paper-bg: #fdfbf7;
+  --color-paper-deep: #f5f5f5;
+  --color-ink-color: #1a1a1a;
+  --color-pencil-grey: #4a4a4a;
+  --color-border-color: #e0e0e0;
+  --color-highlight: #ffff00;
+  --color-background: #fdfbf7;
+  --color-on-background: #1a1a1a;
+  --color-primary: #1a1a1a;
+  --color-on-primary: #ffffff;
+  --color-secondary: #f5f5f5;
+  --color-on-secondary: #1a1a1a;
+  --color-tertiary: #ffff00;
+  --color-on-tertiary: #1a1a1a;
+  --color-surface: #fdfbf7;
+  --color-on-surface: #1a1a1a;
+  --spacing-unit: 8px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 32px;
+  --rounded-DEFAULT: 10px;
+
+  /* PX AI application theme contract. */
+  --pixel: 1px;
+  --ink: #1a1a1a;
+  --paper: #fdfbf7;
+  --bg: #fdfbf7;
+  --red: var(--color-tertiary);
+  --blue: var(--color-secondary);
+  --green: var(--color-tertiary);
+  --yellow: var(--color-secondary);
+  --on-red: #000000;
+  --on-blue: #000000;
+  --on-green: #000000;
+  --on-yellow: #000000;
+  --on-accent: #ffffff;
+  --muted: #4a4a4a;
+  --soft-line: var(--color-border-color);
+  --border: #e0e0e0;
+  --hover-surface: var(--color-surface);
+  --placeholder: var(--color-secondary);
+  --font-pixel: 'Noto Serif SC', Georgia, serif;
+  --font-body: Georgia, 'Noto Serif SC', serif;
+  --highlight: #ffff00;
+  --theme-color-01: #1a1a1a0b;
+  --theme-color-02: #0000;
+}

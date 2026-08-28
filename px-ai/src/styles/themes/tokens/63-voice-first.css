@@ -1,0 +1,60 @@
+/* Generated from designs/63-voice-first/DESIGN.md. Do not edit manually. */
+[data-theme='63-voice-first'] {
+  --color-listening-color: #6b8faf;
+  --color-speaking-color: #22c55e;
+  --color-voice-accent: #9b8fbb;
+  --color-bg: #fafafa;
+  --color-surface: #ffffff;
+  --color-line: #e3e6eb;
+  --color-ink: #26313d;
+  --color-muted: #5b6774;
+  --color-listening-ink: #3a5c7c;
+  --color-accent-ink: #635789;
+  --color-speaking-ink: #15803d;
+  --color-background: #fafafa;
+  --color-on-background: #26313d;
+  --color-primary: #3a5c7c;
+  --color-on-primary: #ffffff;
+  --color-secondary: #9b8fbb;
+  --color-on-secondary: #ffffff;
+  --color-tertiary: #22c55e;
+  --color-on-tertiary: #26313d;
+  --color-on-surface: #26313d;
+  --spacing-unit: 8px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 32px;
+  --rounded-radius: 20px;
+  --rounded-DEFAULT: 20px;
+
+  /* PX AI application theme contract. */
+  --pixel: 1px;
+  --ink: #26313d;
+  --paper: #fff;
+  --bg: #fafafa;
+  --red: var(--color-tertiary);
+  --blue: var(--color-secondary);
+  --green: var(--color-tertiary);
+  --yellow: var(--color-voice-accent);
+  --on-red: #000000;
+  --on-blue: #000000;
+  --on-green: #000000;
+  --on-yellow: #000000;
+  --on-accent: #ffffff;
+  --muted: #5b6774;
+  --soft-line: #e3e6eb;
+  --border: #e3e6eb;
+  --hover-surface: #f6f8fa;
+  --placeholder: var(--color-muted);
+  --font-pixel: 'Manrope',sans-serif;
+  --font-body: 'Inter',sans-serif;
+  --theme-color-01: #fafafae6;
+  --theme-color-02: #eff3f7;
+  --theme-color-03: #f1eef8;
+  --theme-color-04: #3a5c7c47;
+  --theme-color-05: #26313d12;
+  --theme-color-06: #26313d14;
+  --theme-color-07: #d9d2ea;
+  --theme-color-08: #f1f4f7;
+  --theme-color-09: #edf6ef;
+}

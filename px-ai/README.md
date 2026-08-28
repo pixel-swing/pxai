@@ -42,4 +42,4 @@ npm run build
 npm run themes:generate
 ```
 
-生成结果位于 `src/styles/themes/generated`，主题清单位于 `src/data/themeOptions.ts`，聚合入口为 `src/styles/themes/all-themes.css`。`52-pixel-art` 和 `41-cyberpunk-ui` 继续保留项目级精细适配。
+设计令牌位于 `src/styles/themes/tokens`，主题清单位于 `src/data/themeOptions.ts`，聚合入口为 `src/styles/themes/all-themes.css`。`52-pixel-art` 和 `41-cyberpunk-ui` 继续保留项目级精细适配。

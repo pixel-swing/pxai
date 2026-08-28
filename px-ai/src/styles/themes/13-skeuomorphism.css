@@ -1,0 +1,103 @@
+[data-theme='13-skeuomorphism'] { color-scheme: light; }
+
+[data-theme='13-skeuomorphism'] body {
+  color: var(--ink);
+  background-color: var(--theme-color-01);
+  background-image:
+    repeating-linear-gradient(92deg, var(--theme-color-02) 0 2px, transparent 2px 8px),
+    radial-gradient(circle at 20% 10%, var(--theme-color-03), transparent 36%),
+    linear-gradient(180deg, var(--theme-color-04), var(--theme-color-01));
+  font: 16px/1.65 var(--font-body);
+  image-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+
+[data-theme='13-skeuomorphism'] :focus-visible { border-radius: 4px; outline: 3px solid var(--color-primary); outline-offset: 2px; }
+[data-theme='13-skeuomorphism'] .pixel-border { margin: 0; border: 1px solid var(--soft-line); border-radius: 12px; box-shadow: inset 0 1px 0 var(--theme-color-05), 0 1px 2px var(--theme-color-06), 0 4px 8px var(--theme-color-07), 0 14px 28px var(--theme-color-08); }
+
+[data-theme='13-skeuomorphism'] .site-header {
+  color: var(--color-on-secondary);
+  background:
+    repeating-linear-gradient(92deg, var(--theme-color-09) 0 3px, transparent 3px 9px, var(--theme-color-10) 9px 11px, transparent 11px 19px),
+    linear-gradient(180deg, var(--theme-color-11) 0%, var(--theme-color-12) 45%, var(--color-wood-deep) 100%);
+  border: 0;
+  box-shadow: inset 0 1px 0 var(--theme-color-13), inset 0 -3px 6px var(--theme-color-14), 0 4px 10px var(--theme-color-15);
+}
+
+[data-theme='13-skeuomorphism'] .brand { color: var(--color-on-secondary); font-size: 18px; text-shadow: 0 1px 2px var(--theme-color-16); }
+[data-theme='13-skeuomorphism'] .brand-mark { border-radius: 8px; background: linear-gradient(180deg, var(--theme-color-17), var(--theme-color-18) 55%, var(--theme-color-19)); box-shadow: inset 0 1px 0 var(--theme-color-20), inset 0 -2px 3px var(--theme-color-21), 0 2px 4px var(--theme-color-22); }
+[data-theme='13-skeuomorphism'] .brand-mark i { border-radius: 50%; background: var(--theme-color-23); }
+[data-theme='13-skeuomorphism'] .section-nav a,
+[data-theme='13-skeuomorphism'] .utility-nav a { color: var(--color-on-secondary); border: 0; border-radius: 8px; text-shadow: 0 1px 1px var(--theme-color-16); }
+[data-theme='13-skeuomorphism'] .section-nav a:hover,
+[data-theme='13-skeuomorphism'] .section-nav a.active,
+[data-theme='13-skeuomorphism'] .utility-nav a:hover,
+[data-theme='13-skeuomorphism'] .utility-nav a.active { color: var(--theme-color-24); background: var(--theme-color-25); box-shadow: inset 0 1px 3px var(--theme-color-22); }
+[data-theme='13-skeuomorphism'] .theme-switcher select { color: var(--color-on-surface); background: linear-gradient(180deg, var(--theme-color-26), var(--theme-color-27)); border: 1px solid var(--soft-line); border-radius: 8px; box-shadow: inset 0 1px 2px var(--theme-color-28); }
+[data-theme='13-skeuomorphism'] .ticker { color: var(--theme-color-29); background: linear-gradient(180deg, var(--theme-color-30), var(--theme-color-31)); border-bottom: 1px solid var(--theme-color-32); }
+
+[data-theme='13-skeuomorphism'] .hero-section { padding-block: 62px 54px; background: transparent; border: 0; }
+[data-theme='13-skeuomorphism'] .hero-grid { grid-template-columns: 1.1fr 0.9fr; gap: 40px; }
+[data-theme='13-skeuomorphism'] .eyebrow { margin-bottom: 16px; padding: 7px 14px; color: var(--theme-color-33); background: linear-gradient(180deg, var(--theme-color-30), var(--theme-color-31)); border: 1px solid var(--theme-color-32); border-radius: 999px; box-shadow: inset 0 1px 0 var(--theme-color-34), 0 1px 2px var(--theme-color-35); font: 600 13px/1 var(--font-body); letter-spacing: 0.14em; }
+[data-theme='13-skeuomorphism'] .hero-section h1 { color: var(--ink); font-size: clamp(36px, 5vw, 55px); line-height: 1.2; font-weight: 800; text-shadow: 0 1px 0 var(--theme-color-36), 0 2px 3px var(--theme-color-08); }
+[data-theme='13-skeuomorphism'] .hero-section h1 span { color: var(--color-secondary); }
+[data-theme='13-skeuomorphism'] .cursor { background: var(--color-brass-deep); box-shadow: inset 1px 0 var(--theme-color-03); }
+[data-theme='13-skeuomorphism'] .hero-section > .hero-grid > div:first-child > p { max-width: 34em; margin-block: 18px 28px; color: var(--muted); font-size: 17px; }
+
+[data-theme='13-skeuomorphism'] .pixel-button { min-height: 46px; padding: 0 24px; color: var(--color-on-primary); background: linear-gradient(180deg, var(--theme-color-17) 0%, var(--theme-color-37) 9%, var(--theme-color-38) 19%, var(--theme-color-18) 31%, var(--theme-color-39) 44%, var(--theme-color-19) 50%, var(--theme-color-40) 56%, var(--theme-color-41) 68%, var(--theme-color-42) 80%, var(--theme-color-43) 90%, var(--theme-color-44) 100%); border: 1px solid var(--theme-color-45); border-radius: 10px; box-shadow: inset 0 1px 0 var(--theme-color-46), inset 0 -2px 4px var(--theme-color-47), 0 2px 3px var(--theme-color-48), 0 6px 12px var(--theme-color-06), 0 14px 26px var(--theme-color-08); font: 600 16px/1.4 var(--font-body); text-shadow: 0 1px 0 var(--theme-color-03); }
+[data-theme='13-skeuomorphism'] .pixel-button:hover { color: var(--color-on-primary); filter: brightness(1.07); transform: translateY(-1px); }
+[data-theme='13-skeuomorphism'] .pixel-button.secondary { color: var(--ink); background: transparent; border-color: var(--border); box-shadow: inset 0 1px 0 var(--theme-color-49), inset 0 -1px 0 var(--theme-color-50); }
+[data-theme='13-skeuomorphism'] .pixel-button.secondary:hover { color: var(--ink); background: var(--theme-color-51); }
+
+[data-theme='13-skeuomorphism'] .knowledge-console { position: relative; min-height: 330px; padding: 0; color: var(--ink); background: transparent; border: 0; box-shadow: none; }
+[data-theme='13-skeuomorphism'] .console-title,
+[data-theme='13-skeuomorphism'] .progress-label,
+[data-theme='13-skeuomorphism'] .pixel-progress,
+[data-theme='13-skeuomorphism'] .knowledge-console > p { display: none; }
+[data-theme='13-skeuomorphism'] .knowledge-console::after { content: 'HANDCRAFTED · NO.13'; position: absolute; right: 50%; bottom: 3px; padding: 9px 18px; color: var(--theme-color-29); background: linear-gradient(180deg, var(--theme-color-37), var(--theme-color-39)); border: 1px solid var(--theme-color-52); border-radius: 6px; box-shadow: inset 0 1px 0 var(--theme-color-20), inset 0 -2px 3px var(--theme-color-53), 0 2px 4px var(--theme-color-54); font: 600 12px/1 var(--font-body); letter-spacing: 0.16em; transform: translateX(50%); }
+[data-theme='13-skeuomorphism'] .pixel-orbit { position: absolute; top: 4px; right: 50%; display: block; width: 270px; height: 270px; margin: 0; padding: 22px; border: 0; border-radius: 50%; background: conic-gradient(from 20deg, var(--theme-color-55), var(--theme-color-56) 8%, var(--theme-color-57) 16%, var(--theme-color-58) 24%, var(--theme-color-59) 33%, var(--theme-color-60) 41%, var(--theme-color-61) 50%, var(--theme-color-62) 58%, var(--theme-color-63) 66%, var(--theme-color-64) 75%, var(--theme-color-65) 84%, var(--theme-color-66) 92%, var(--theme-color-55)); box-shadow: inset 0 2px 3px var(--theme-color-67), inset 0 -4px 8px var(--theme-color-68), 0 8px 14px var(--theme-color-69), 0 20px 40px var(--theme-color-70); transform: translateX(50%); }
+[data-theme='13-skeuomorphism'] .pixel-orbit::before { inset: 22px; border-radius: 50%; background: repeating-conic-gradient(var(--theme-color-71) 0 0.6deg, transparent 0.6deg 30deg), radial-gradient(circle at 35% 28%, var(--theme-color-72), var(--theme-color-73) 55%, var(--theme-color-74) 100%); box-shadow: inset 0 3px 6px var(--theme-color-34), inset 0 -6px 12px var(--theme-color-06), 0 2px 4px var(--theme-color-48); }
+[data-theme='13-skeuomorphism'] .pixel-orbit::after { z-index: 2; top: 50%; right: auto; bottom: auto; left: 50%; width: 5px; height: 82px; border-radius: 4px; background: linear-gradient(180deg, var(--theme-color-44), var(--theme-color-19)); box-shadow: 0 1px 3px var(--theme-color-75); transform: translate(-50%, -100%) rotate(38deg); transform-origin: 50% 100%; animation: dial-needle 5s cubic-bezier(0.25, 0.7, 0.3, 1) infinite alternate; }
+[data-theme='13-skeuomorphism'] .pixel-orbit span { position: absolute; z-index: 4; top: 50%; left: 50%; display: block; width: 42px; height: 42px; border-radius: 50%; color: transparent; background: radial-gradient(circle at 35% 30%, var(--theme-color-76), var(--theme-color-65) 60%, var(--theme-color-77)); box-shadow: 0 2px 4px var(--theme-color-78), inset 0 1px 0 var(--theme-color-67); font-size: 0; transform: translate(-50%, -50%); animation: none; }
+[data-theme='13-skeuomorphism'] .pixel-orbit i { z-index: 3; width: 8px; height: 18px; border-radius: 3px; background: var(--border); }
+[data-theme='13-skeuomorphism'] .pixel-orbit i:nth-child(1) { top: 40px; left: 50%; transform: translateX(-50%); }
+[data-theme='13-skeuomorphism'] .pixel-orbit i:nth-child(2) { top: 50%; right: 40px; background: var(--border); transform: translateY(-50%) rotate(90deg); }
+[data-theme='13-skeuomorphism'] .pixel-orbit i:nth-child(3) { right: auto; bottom: 40px; left: 50%; background: var(--border); transform: translateX(-50%); }
+[data-theme='13-skeuomorphism'] .pixel-orbit i:nth-child(4) { top: 50%; bottom: auto; left: 40px; background: var(--border); transform: translateY(-50%) rotate(90deg); }
+
+[data-theme='13-skeuomorphism'] .stats-strip article,
+[data-theme='13-skeuomorphism'] .explorer-tools,
+[data-theme='13-skeuomorphism'] .article-body,
+[data-theme='13-skeuomorphism'] .submit-form { background: linear-gradient(180deg, var(--color-paper-hi), var(--theme-color-27)); border: 1px solid var(--theme-color-79); }
+[data-theme='13-skeuomorphism'] .stats-strip svg,
+[data-theme='13-skeuomorphism'] .directory-card > svg { color: var(--color-brass-deep); }
+[data-theme='13-skeuomorphism'] .directory-card,
+[data-theme='13-skeuomorphism'] .content-card { color: var(--theme-color-80); background: radial-gradient(130% 150% at 18% 0%, var(--theme-color-81) 0%, var(--color-leather) 48%, var(--color-leather-deep) 100%); border: 1px solid var(--theme-color-82); box-shadow: inset 0 1px 0 var(--theme-color-83), inset 0 -8px 16px var(--theme-color-22), 0 3px 6px var(--theme-color-69), 0 14px 28px var(--theme-color-54); }
+[data-theme='13-skeuomorphism'] .directory-card::before,
+[data-theme='13-skeuomorphism'] .content-card::before { content: ''; position: absolute; inset: 9px; z-index: 0; border: 2px dashed var(--theme-color-84); border-radius: 8px; pointer-events: none; }
+[data-theme='13-skeuomorphism'] .directory-card p,
+[data-theme='13-skeuomorphism'] .directory-card small,
+[data-theme='13-skeuomorphism'] .content-card > p,
+[data-theme='13-skeuomorphism'] .content-card footer { color: var(--theme-color-80); }
+[data-theme='13-skeuomorphism'] .directory-card:hover,
+[data-theme='13-skeuomorphism'] .content-card:hover { background: radial-gradient(130% 150% at 18% 0%, var(--theme-color-85), var(--theme-color-86) 48%, var(--color-leather-deep)); transform: translateY(-4px); }
+[data-theme='13-skeuomorphism'] .section-heading span,
+[data-theme='13-skeuomorphism'] .page-heading > span,
+[data-theme='13-skeuomorphism'] .directory-index,
+[data-theme='13-skeuomorphism'] .section-chip { color: var(--theme-color-29); background: linear-gradient(180deg, var(--theme-color-87), var(--theme-color-88)); border: 1px solid var(--theme-color-52); border-radius: 999px; box-shadow: inset 0 1px 0 var(--theme-color-46), 0 1px 2px var(--theme-color-54); }
+[data-theme='13-skeuomorphism'] .search-field input,
+[data-theme='13-skeuomorphism'] .submit-form input,
+[data-theme='13-skeuomorphism'] .submit-form textarea,
+[data-theme='13-skeuomorphism'] .submit-form select { color: var(--ink); background: linear-gradient(180deg, var(--theme-color-26), var(--theme-color-89)); border: 1px solid var(--soft-line); border-radius: 8px; box-shadow: inset 0 2px 5px var(--theme-color-28), inset 0 -1px 0 var(--theme-color-90); }
+[data-theme='13-skeuomorphism'] .principles-section { background: linear-gradient(180deg, var(--color-paper-hi), var(--theme-color-01)); border-color: var(--soft-line); }
+[data-theme='13-skeuomorphism'] .growth-stage svg { color: var(--color-brass-deep); filter: drop-shadow(0 2px 2px var(--theme-color-48)); }
+[data-theme='13-skeuomorphism'] .principles-kicker { color: var(--theme-color-29); background: linear-gradient(180deg, var(--theme-color-87), var(--theme-color-88)); border-color: var(--theme-color-52); border-radius: 999px; }
+[data-theme='13-skeuomorphism'] .principles-content > h2 span { color: var(--color-secondary); border-color: var(--color-secondary); }
+[data-theme='13-skeuomorphism'] .principles-content mark { color: var(--color-on-primary); background: linear-gradient(180deg, var(--theme-color-17), var(--theme-color-18)); }
+[data-theme='13-skeuomorphism'] .site-footer { color: var(--color-on-secondary); background: linear-gradient(180deg, var(--theme-color-91), var(--color-leather-deep)); border: 0; box-shadow: inset 0 3px 6px var(--theme-color-22); }
+
+@keyframes dial-needle { from { transform: translate(-50%, -100%) rotate(38deg); } to { transform: translate(-50%, -100%) rotate(112deg); } }
+
+@media (prefers-reduced-motion: reduce) {
+  [data-theme='13-skeuomorphism'] .pixel-orbit::after { animation: none; }
+}

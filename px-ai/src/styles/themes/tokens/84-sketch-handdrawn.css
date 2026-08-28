@@ -1,0 +1,55 @@
+/* Generated from designs/84-sketch-handdrawn/DESIGN.md. Do not edit manually. */
+[data-theme='84-sketch-handdrawn'] {
+  --color-bg: #fdfbf7;
+  --color-old-paper: #e5e0d8;
+  --color-card-bg: #ffffff;
+  --color-text: #2d2d2d;
+  --color-accent-red: #ff4d4d;
+  --color-red-ink: #c93030;
+  --color-accent-blue: #2d5da1;
+  --color-postit: #fff9c4;
+  --color-background: #e5e0d8;
+  --color-on-background: #2d2d2d;
+  --color-primary: #fff9c4;
+  --color-on-primary: #2d2d2d;
+  --color-secondary: #ff4d4d;
+  --color-on-secondary: #ffffff;
+  --color-tertiary: #2d5da1;
+  --color-on-tertiary: #ffffff;
+  --color-surface: #ffffff;
+  --color-on-surface: #2d2d2d;
+  --spacing-unit: 8px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 32px;
+  --rounded-DEFAULT: 0px;
+
+  /* PX AI application theme contract. */
+  --pixel: 1px;
+  --ink: #2d2d2d;
+  --paper: #fff;
+  --bg: #e5e0d8;
+  --red: var(--color-accent-red);
+  --blue: var(--color-accent-blue);
+  --green: var(--color-tertiary);
+  --yellow: var(--color-accent-red);
+  --on-red: #000000;
+  --on-blue: #ffffff;
+  --on-green: #ffffff;
+  --on-yellow: #000000;
+  --on-accent: #000000;
+  --muted: #4a463f;
+  --soft-line: rgba(45, 45, 45, 0.35);
+  --border: #2d2d2d;
+  --hover-surface: #fbf7ec;
+  --placeholder: var(--color-secondary);
+  --font-pixel: "Kalam", cursive;
+  --font-body: "Patrick Hand", cursive;
+  --theme-color-02: #fdfbf7f0;
+  --theme-color-04: #fff3a3;
+  --theme-color-07: #2d2d2d66;
+  --theme-color-01: rgba(45, 45, 45, 0.028);
+  --theme-color-03: rgba(45, 45, 45, 0.05);
+  --theme-color-05: rgba(228, 218, 190, 0.82);
+  --theme-color-06: rgba(45, 45, 45, 0.25);
+}
